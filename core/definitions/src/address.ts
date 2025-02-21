@@ -1,5 +1,5 @@
-import type { Chain, ChainToPlatform, Platform } from "@wormhole-foundation/sdk-base";
-import { chainToPlatform, platformToAddressFormat } from "@wormhole-foundation/sdk-base";
+import type { Chain, ChainToPlatform, Platform } from "@ultronswap-wormhole/sdk-base";
+import { chainToPlatform, platformToAddressFormat } from "@ultronswap-wormhole/sdk-base";
 import type { WormholeRegistry } from "./registry.js";
 
 //TODO BRRRR circular include!!

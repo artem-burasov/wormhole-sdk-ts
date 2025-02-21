@@ -7,7 +7,7 @@ import type {
   StaticPlatformMethods,
   TokenId,
   TxHash,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 import {
   PlatformContext,
   Wormhole,
@@ -16,7 +16,7 @@ import {
   isNative,
   nativeChainIds,
   networkPlatformConfigs,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 import type { SignedTransaction } from "algosdk";
 import algosdk from "algosdk";
 import { AlgorandAddress, AlgorandZeroAddress } from "./address.js";

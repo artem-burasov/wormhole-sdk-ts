@@ -1,10 +1,10 @@
-import type { Chain } from "@wormhole-foundation/sdk-base";
+import type { Chain } from "@ultronswap-wormhole/sdk-base";
 import {
   chainToPlatform,
   encoding,
   isPlatform,
   platformToChains,
-} from "@wormhole-foundation/sdk-base";
+} from "@ultronswap-wormhole/sdk-base";
 import type { ChainAddress, NativeAddress } from "./../../index.js";
 import { UniversalAddress, toNative } from "./../../index.js";
 

@@ -1,5 +1,5 @@
-import { registerProtocol } from '@wormhole-foundation/sdk-connect';
-import { _platform } from '@wormhole-foundation/sdk-evm';
+import { registerProtocol } from '@ultronswap-wormhole/sdk-connect';
+import { _platform } from '@ultronswap-wormhole/sdk-evm';
 import { EvmPorticoBridge } from './bridge.js';
 
 registerProtocol(_platform, 'PorticoBridge', EvmPorticoBridge);

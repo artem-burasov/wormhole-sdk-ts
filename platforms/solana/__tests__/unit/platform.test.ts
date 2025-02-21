@@ -1,5 +1,5 @@
 import { jest, expect, test } from '@jest/globals';
-import { nativeChainIds } from '@wormhole-foundation/sdk-connect';
+import { nativeChainIds } from '@ultronswap-wormhole/sdk-connect';
 
 // Mock the genesis hash call for solana so we dont touch the network
 jest.mock('@solana/web3.js', () => {
@@ -23,12 +23,12 @@ import {
   CONFIG,
   chainToPlatform,
   chains,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 
 import { SolanaChains, SolanaPlatform } from './../../src/index.js';
 
-import '@wormhole-foundation/sdk-solana-core';
-import '@wormhole-foundation/sdk-solana-tokenbridge';
+import '@ultronswap-wormhole/sdk-solana-core';
+import '@ultronswap-wormhole/sdk-solana-tokenbridge';
 
 const { getDefaultProvider } = jest.requireMock('@solana/web3.js') as {
   getDefaultProvider: jest.Mock;

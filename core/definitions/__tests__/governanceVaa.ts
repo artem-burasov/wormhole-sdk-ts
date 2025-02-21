@@ -1,4 +1,4 @@
-import { encoding } from "@wormhole-foundation/sdk-base";
+import { encoding } from "@ultronswap-wormhole/sdk-base";
 import { UniversalAddress } from "../src/universalAddress.js";
 import {
   createVAA,

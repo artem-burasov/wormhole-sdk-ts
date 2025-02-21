@@ -1,10 +1,10 @@
-import type { Network } from "@wormhole-foundation/sdk-base";
-import type { ChainContext, TokenId } from "@wormhole-foundation/sdk-definitions";
+import type { Network } from "@ultronswap-wormhole/sdk-base";
+import type { ChainContext, TokenId } from "@ultronswap-wormhole/sdk-definitions";
 import {
   canonicalAddress,
   isNative,
   resolveWrappedToken,
-} from "@wormhole-foundation/sdk-definitions";
+} from "@ultronswap-wormhole/sdk-definitions";
 import type { Wormhole } from "../wormhole.js";
 import type { RouteTransferRequest } from "./request.js";
 import type { Route, RouteConstructor } from "./route.js";

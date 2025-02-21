@@ -1,14 +1,14 @@
 {
-  "name": "@wormhole-foundation/connect-sdk-examples",
+  "name": "@ultronswap-wormhole/connect-sdk-examples",
   "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wormhole-foundation/connect-sdk.git"
+    "url": "git+https://github.com/ultronswap-wormhole/connect-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/wormhole-foundation/connect-sdk/issues"
+    "url": "https://github.com/ultronswap-wormhole/connect-sdk/issues"
   },
-  "homepage": "https://github.com/wormhole-foundation/connect-sdk#readme",
+  "homepage": "https://github.com/ultronswap-wormhole/connect-sdk#readme",
   "directories": {
     "test": "__tests__"
   },
@@ -52,6 +52,6 @@
     "tsx": "^4.7.0"
   },
   "dependencies": {
-    "@wormhole-foundation/sdk": "1.0.3"
+    "@ultronswap-wormhole/sdk": "1.0.3"
   }
 }

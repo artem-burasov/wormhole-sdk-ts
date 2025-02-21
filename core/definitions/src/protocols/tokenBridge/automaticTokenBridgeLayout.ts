@@ -4,7 +4,7 @@ import { registerPayloadTypes } from "./../../vaa/index.js";
 import { transferWithPayloadLayout } from "./tokenBridgeLayout.js";
 
 //from here:
-// https://github.com/wormhole-foundation/example-token-bridge-relayer/blob/1a04ec51f4cfded04e59160bcf2e64aa29dea1f3/evm/src/token-bridge-relayer/TokenBridgeRelayer.sol#L260-L267
+// https://github.com/ultronswap-wormhole/example-token-bridge-relayer/blob/1a04ec51f4cfded04e59160bcf2e64aa29dea1f3/evm/src/token-bridge-relayer/TokenBridgeRelayer.sol#L260-L267
 export const connectPayload = [
   payloadIdItem(1),
   { name: "targetRelayerFee", ...amountItem },

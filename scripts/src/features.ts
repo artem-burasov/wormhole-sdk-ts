@@ -1,25 +1,25 @@
 import fs from "fs";
-import { Chain, Network, Wormhole, chains } from "@wormhole-foundation/sdk-connect";
-import { EvmPlatform } from "@wormhole-foundation/sdk-evm";
-import { SolanaPlatform } from "@wormhole-foundation/sdk-solana";
-import { CosmwasmPlatform } from "@wormhole-foundation/sdk-cosmwasm";
-import { AlgorandPlatform } from "@wormhole-foundation/sdk-algorand";
+import { Chain, Network, Wormhole, chains } from "@ultronswap-wormhole/sdk-connect";
+import { EvmPlatform } from "@ultronswap-wormhole/sdk-evm";
+import { SolanaPlatform } from "@ultronswap-wormhole/sdk-solana";
+import { CosmwasmPlatform } from "@ultronswap-wormhole/sdk-cosmwasm";
+import { AlgorandPlatform } from "@ultronswap-wormhole/sdk-algorand";
 
-import "@wormhole-foundation/sdk-evm-core";
-import "@wormhole-foundation/sdk-evm-tokenbridge";
-import "@wormhole-foundation/sdk-evm-cctp";
-import "@wormhole-foundation/sdk-evm-portico";
+import "@ultronswap-wormhole/sdk-evm-core";
+import "@ultronswap-wormhole/sdk-evm-tokenbridge";
+import "@ultronswap-wormhole/sdk-evm-cctp";
+import "@ultronswap-wormhole/sdk-evm-portico";
 
-import "@wormhole-foundation/sdk-solana-core";
-import "@wormhole-foundation/sdk-solana-tokenbridge";
-import "@wormhole-foundation/sdk-solana-cctp";
+import "@ultronswap-wormhole/sdk-solana-core";
+import "@ultronswap-wormhole/sdk-solana-tokenbridge";
+import "@ultronswap-wormhole/sdk-solana-cctp";
 
-import "@wormhole-foundation/sdk-cosmwasm-core";
-import "@wormhole-foundation/sdk-cosmwasm-tokenbridge";
-import "@wormhole-foundation/sdk-cosmwasm-ibc";
+import "@ultronswap-wormhole/sdk-cosmwasm-core";
+import "@ultronswap-wormhole/sdk-cosmwasm-tokenbridge";
+import "@ultronswap-wormhole/sdk-cosmwasm-ibc";
 
-import "@wormhole-foundation/sdk-algorand-core";
-import "@wormhole-foundation/sdk-algorand-tokenbridge";
+import "@ultronswap-wormhole/sdk-algorand-core";
+import "@ultronswap-wormhole/sdk-algorand-tokenbridge";
 
 type SupportedProtocols = Record<string, Record<string, boolean>>;
 

@@ -4,7 +4,7 @@ import type {
   PublicKey,
   PublicKeyInitData,
 } from '@solana/web3.js';
-import { utils } from '@wormhole-foundation/sdk-solana';
+import { utils } from '@ultronswap-wormhole/sdk-solana';
 
 export function deriveClaimKey(
   programId: PublicKeyInitData,

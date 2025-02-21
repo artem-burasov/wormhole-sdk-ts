@@ -18,14 +18,14 @@ import {
   DEFAULT_NETWORK,
   chainToPlatform,
   chains,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 
 import {
   toNative,
-} from '@wormhole-foundation/sdk-definitions';
+} from '@ultronswap-wormhole/sdk-definitions';
 
-import '@wormhole-foundation/sdk-evm-core';
-import '@wormhole-foundation/sdk-evm-tokenbridge';
+import '@ultronswap-wormhole/sdk-evm-core';
+import '@ultronswap-wormhole/sdk-evm-tokenbridge';
 import { EvmPlatform } from '../../src/platform.js';
 
 const ethers = jest.requireMock('ethers') as { getDefaultProvider: jest.Mock };

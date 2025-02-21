@@ -1,14 +1,14 @@
 {
-  "name": "@wormhole-foundation/sdk-solana",
+  "name": "@ultronswap-wormhole/sdk-solana",
   "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wormhole-foundation/connect-sdk.git"
+    "url": "git+https://github.com/ultronswap-wormhole/connect-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/wormhole-foundation/connect-sdk/issues"
+    "url": "https://github.com/ultronswap-wormhole/connect-sdk/issues"
   },
-  "homepage": "https://github.com/wormhole-foundation/connect-sdk#readme",
+  "homepage": "https://github.com/ultronswap-wormhole/connect-sdk#readme",
   "directories": {
     "test": "__tests__"
   },
@@ -16,7 +16,7 @@
   "main": "./dist/cjs/index.js",
   "types": "./dist/cjs/index.d.ts",
   "module": "./dist/esm/index.js",
-  "description": "SDK for Solana, used in conjunction with @wormhole-foundation/sdk",
+  "description": "SDK for Solana, used in conjunction with @ultronswap-wormhole/sdk",
   "files": [
     "dist/esm",
     "dist/cjs"
@@ -53,7 +53,7 @@
     "@coral-xyz/borsh": "0.29.0",
     "@solana/spl-token": "0.3.9",
     "@solana/web3.js": "^1.95.8",
-    "@wormhole-foundation/sdk-connect": "1.0.3",
+    "@ultronswap-wormhole/sdk-connect": "1.0.3",
     "rpc-websockets": "^7.10.0"
   },
   "type": "module",

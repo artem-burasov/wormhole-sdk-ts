@@ -3,7 +3,7 @@ import type { PaginatedObjectsResponse, SuiClient } from "@mysten/sui.js/client"
 import { TransactionBlock } from "@mysten/sui.js/transactions";
 import { isValidSuiAddress, normalizeSuiAddress, normalizeSuiObjectId } from "@mysten/sui.js/utils";
 
-import { encoding } from "@wormhole-foundation/sdk-connect";
+import { encoding } from "@ultronswap-wormhole/sdk-connect";
 import type { SuiBuildOutput } from "./types.js";
 import {
   getFieldsFromObjectResponse,

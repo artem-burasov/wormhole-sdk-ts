@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Chain, chainToPlatform, chains } from "@wormhole-foundation/sdk-connect";
+import { Chain, chainToPlatform, chains } from "@ultronswap-wormhole/sdk-connect";
 
 const registryUrl = (chain: Chain) =>
   `https://raw.githubusercontent.com/cosmos/chain-registry/master/${chain.toLowerCase()}/chain.json`;

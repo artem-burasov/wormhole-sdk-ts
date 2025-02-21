@@ -1,11 +1,11 @@
-import type { Chain, Network } from "@wormhole-foundation/sdk-base";
+import type { Chain, Network } from "@ultronswap-wormhole/sdk-base";
 import {
   amount,
   encoding,
   finality,
   guardians,
   toChain as toChainName,
-} from "@wormhole-foundation/sdk-base";
+} from "@ultronswap-wormhole/sdk-base";
 import type {
   AttestationId,
   AutomaticTokenBridge,
@@ -18,7 +18,7 @@ import type {
   TxHash,
   UnsignedTransaction,
   WormholeMessageId,
-} from "@wormhole-foundation/sdk-definitions";
+} from "@ultronswap-wormhole/sdk-definitions";
 import {
   TokenBridge,
   UniversalAddress,
@@ -33,7 +33,7 @@ import {
   serialize,
   toNative,
   toUniversal,
-} from "@wormhole-foundation/sdk-definitions";
+} from "@ultronswap-wormhole/sdk-definitions";
 import { signSendWait } from "../../common.js";
 import { DEFAULT_TASK_TIMEOUT } from "../../config.js";
 import type {

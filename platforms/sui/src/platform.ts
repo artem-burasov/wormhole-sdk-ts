@@ -7,7 +7,7 @@ import type {
   StaticPlatformMethods,
   TokenId,
   TxHash,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 import {
   PlatformContext,
   Wormhole,
@@ -16,7 +16,7 @@ import {
   nativeChainIds,
   decimals as nativeDecimals,
   networkPlatformConfigs,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 
 import { PaginatedCoins, SuiClient } from "@mysten/sui.js/client";
 import { SuiAddress } from "./address.js";

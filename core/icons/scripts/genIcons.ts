@@ -2,12 +2,12 @@
 // Usage: npm run gen
 
 import { readFileSync, writeFileSync } from "fs";
-import { Chain, chains, encoding } from "@wormhole-foundation/sdk-base";
+import { Chain, chains, encoding } from "@ultronswap-wormhole/sdk-base";
 
 let output = `
 // THIS FILE IS AUTO-GENERATED WITH \`npm run gen\`
 
-import { Chain } from "@wormhole-foundation/sdk-base";
+import { Chain } from "@ultronswap-wormhole/sdk-base";
 
 const PREFIX = "data:image/svg+xml;base64,"
 

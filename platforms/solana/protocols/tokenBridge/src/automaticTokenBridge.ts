@@ -9,21 +9,21 @@ import type {
   Network,
   Platform,
   TokenAddress,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 import {
   isNative,
   toChainId,
   toNative,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 import type {
   SolanaChains,
   SolanaTransaction,
-} from '@wormhole-foundation/sdk-solana';
+} from '@ultronswap-wormhole/sdk-solana';
 import {
   SolanaAddress,
   SolanaPlatform,
   SolanaUnsignedTransaction,
-} from '@wormhole-foundation/sdk-solana';
+} from '@ultronswap-wormhole/sdk-solana';
 
 import type { Program } from '@coral-xyz/anchor';
 
@@ -52,7 +52,7 @@ import {
   getAccount,
   getAssociatedTokenAddressSync,
 } from '@solana/spl-token';
-import '@wormhole-foundation/sdk-solana-core';
+import '@ultronswap-wormhole/sdk-solana-core';
 import { registeredTokens } from './consts.js';
 
 import BN from 'bn.js';

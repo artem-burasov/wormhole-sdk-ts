@@ -1,5 +1,5 @@
-import { _platform } from "@wormhole-foundation/sdk-sui";
-import { registerProtocol } from "@wormhole-foundation/sdk-connect";
+import { _platform } from "@ultronswap-wormhole/sdk-sui";
+import { registerProtocol } from "@ultronswap-wormhole/sdk-connect";
 import { SuiTokenBridge } from "./tokenBridge.js";
 import { SuiAutomaticTokenBridge } from "./automaticTokenBridge.js";
 

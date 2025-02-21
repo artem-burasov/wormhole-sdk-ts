@@ -1,14 +1,14 @@
 import * as fs from "fs";
-import { Network, Wormhole } from "@wormhole-foundation/sdk-connect";
-import { EvmPlatform } from "@wormhole-foundation/sdk-evm";
-import { SolanaPlatform } from "@wormhole-foundation/sdk-solana";
+import { Network, Wormhole } from "@ultronswap-wormhole/sdk-connect";
+import { EvmPlatform } from "@ultronswap-wormhole/sdk-evm";
+import { SolanaPlatform } from "@ultronswap-wormhole/sdk-solana";
 
 import { getSuggestedUpdates } from "./foreignAssets";
 import { TokensConfig } from "../types";
 import { tokenFilePath } from "./utils";
 
-import "@wormhole-foundation/sdk-evm-tokenbridge";
-import "@wormhole-foundation/sdk-solana-tokenbridge";
+import "@ultronswap-wormhole/sdk-evm-tokenbridge";
+import "@ultronswap-wormhole/sdk-solana-tokenbridge";
 
 // warning: be careful optimizing the RPC calls in this script, you may 429 yourself
 // slow and steady, or something like that

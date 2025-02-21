@@ -1,14 +1,14 @@
 {
-  "name": "@wormhole-foundation/sdk-icons",
+  "name": "@ultronswap-wormhole/sdk-icons",
   "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wormhole-foundation/connect-sdk.git"
+    "url": "git+https://github.com/ultronswap-wormhole/connect-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/wormhole-foundation/connect-sdk/issues"
+    "url": "https://github.com/ultronswap-wormhole/connect-sdk/issues"
   },
-  "homepage": "https://github.com/wormhole-foundation/connect-sdk#readme",
+  "homepage": "https://github.com/ultronswap-wormhole/connect-sdk#readme",
   "directories": {
     "test": "__tests__"
   },
@@ -50,7 +50,7 @@
     "dist/cjs"
   ],
   "dependencies": {
-    "@wormhole-foundation/sdk-base": "1.0.3"
+    "@ultronswap-wormhole/sdk-base": "1.0.3"
   },
   "sideEffects": false,
   "scripts": {

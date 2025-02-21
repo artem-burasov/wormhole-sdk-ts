@@ -1,4 +1,4 @@
-import { filters, finality } from "@wormhole-foundation/sdk-base";
+import { filters, finality } from "@ultronswap-wormhole/sdk-base";
 import type { StaticRouteMethods } from "../route.js";
 import { AutomaticRoute } from "../route.js";
 import type {
@@ -35,7 +35,7 @@ import {
   resolveWrappedToken,
   signSendWait,
 } from "./../../index.js";
-import type { ChainAddress, WormholeMessageId } from "@wormhole-foundation/sdk-definitions";
+import type { ChainAddress, WormholeMessageId } from "@ultronswap-wormhole/sdk-definitions";
 import type { RouteTransferRequest } from "../request.js";
 
 export const SLIPPAGE_BPS = 15n; // 0.15%

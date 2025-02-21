@@ -9,15 +9,15 @@ import type {
   VAA,
   WormholeCore,
   WormholeMessageId,
-} from "@wormhole-foundation/sdk-connect";
-import { createVAA, toChainId } from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
+import { createVAA, toChainId } from "@ultronswap-wormhole/sdk-connect";
 import type {
   AnySuiAddress,
   SuiChains,
   SuiPlatformType,
   SuiUnsignedTransaction,
-} from "@wormhole-foundation/sdk-sui";
-import { SuiAddress, SuiPlatform } from "@wormhole-foundation/sdk-sui";
+} from "@ultronswap-wormhole/sdk-sui";
+import { SuiAddress, SuiPlatform } from "@ultronswap-wormhole/sdk-sui";
 
 export class SuiWormholeCore<N extends Network, C extends SuiChains> implements WormholeCore<N, C> {
   readonly chainId: ChainId;

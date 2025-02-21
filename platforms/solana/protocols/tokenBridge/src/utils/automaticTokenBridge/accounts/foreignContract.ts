@@ -1,8 +1,8 @@
-import { utils } from '@wormhole-foundation/sdk-solana';
+import { utils } from '@ultronswap-wormhole/sdk-solana';
 import type { PublicKey, PublicKeyInitData } from '@solana/web3.js';
 import type { BN } from '@coral-xyz/anchor';
-import type { Chain } from '@wormhole-foundation/sdk-connect';
-import { toChainId } from '@wormhole-foundation/sdk-connect';
+import type { Chain } from '@ultronswap-wormhole/sdk-connect';
+import { toChainId } from '@ultronswap-wormhole/sdk-connect';
 
 export interface ForeignContract {
   chain: number;

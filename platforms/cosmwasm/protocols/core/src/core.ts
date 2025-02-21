@@ -9,16 +9,16 @@ import type {
   VAA,
   WormholeCore,
   WormholeMessageId,
-} from "@wormhole-foundation/sdk-connect";
-import { UniversalAddress, createVAA, encoding } from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
+import { UniversalAddress, createVAA, encoding } from "@ultronswap-wormhole/sdk-connect";
 
 import type {
   AnyCosmwasmAddress,
   CosmwasmChains,
   CosmwasmPlatformType,
   CosmwasmUnsignedTransaction,
-} from "@wormhole-foundation/sdk-cosmwasm";
-import { CosmwasmPlatform } from "@wormhole-foundation/sdk-cosmwasm";
+} from "@ultronswap-wormhole/sdk-cosmwasm";
+import { CosmwasmPlatform } from "@ultronswap-wormhole/sdk-cosmwasm";
 
 export class CosmwasmWormholeCore<N extends Network, C extends CosmwasmChains>
   implements WormholeCore<N, C>

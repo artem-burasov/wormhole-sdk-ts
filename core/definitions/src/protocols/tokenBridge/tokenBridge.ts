@@ -1,5 +1,5 @@
-import type { Chain, Network } from "@wormhole-foundation/sdk-base";
-import { lazyInstantiate } from "@wormhole-foundation/sdk-base";
+import type { Chain, Network } from "@ultronswap-wormhole/sdk-base";
+import { lazyInstantiate } from "@ultronswap-wormhole/sdk-base";
 import type { AccountAddress, ChainAddress, NativeAddress } from "../../address.js";
 import type { UniversalAddress } from "../../universalAddress.js";
 import type { TokenAddress, TokenId } from "../../types.js";
@@ -117,7 +117,7 @@ export function isTokenTransferDetails(
  * TokenBridge protocol definition, providing a consistent client interface
  * for the TokenBridge protocol
  *
- * Find details on the TokenBridge protocol here: {@link https://github.com/wormhole-foundation/wormhole/blob/main/whitepapers/0003_token_bridge.md}
+ * Find details on the TokenBridge protocol here: {@link https://github.com/ultronswap-wormhole/wormhole/blob/main/whitepapers/0003_token_bridge.md}
  *
  */
 export interface TokenBridge<N extends Network = Network, C extends Chain = Chain> {

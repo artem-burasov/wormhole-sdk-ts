@@ -1,5 +1,5 @@
 {
-  "name": "@wormhole-foundation/scripts",
+  "name": "@ultronswap-wormhole/scripts",
   "version": "0.4.0-beta.2",
   "license": "Apache-2.0",
   "main": "./dist/cjs/index.js",
@@ -29,22 +29,22 @@
     "tsx": "^4.7.0"
   },
   "dependencies": {
-    "@wormhole-foundation/sdk-connect": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-evm": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-evm-core": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-evm-tokenbridge": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-evm-cctp": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-evm-portico": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-solana": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-solana-core": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-solana-tokenbridge": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-solana-cctp": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-cosmwasm": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-cosmwasm-core": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-cosmwasm-tokenbridge": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-cosmwasm-ibc": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-algorand": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-algorand-core": "^0.4.0-beta.2",
-    "@wormhole-foundation/sdk-algorand-tokenbridge": "^0.4.0-beta.2"
+    "@ultronswap-wormhole/sdk-connect": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-evm": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-evm-core": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-evm-tokenbridge": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-evm-cctp": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-evm-portico": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-solana": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-solana-core": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-solana-tokenbridge": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-solana-cctp": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-cosmwasm": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-cosmwasm-core": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-cosmwasm-tokenbridge": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-cosmwasm-ibc": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-algorand": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-algorand-core": "^0.4.0-beta.2",
+    "@ultronswap-wormhole/sdk-algorand-tokenbridge": "^0.4.0-beta.2"
   }
 }

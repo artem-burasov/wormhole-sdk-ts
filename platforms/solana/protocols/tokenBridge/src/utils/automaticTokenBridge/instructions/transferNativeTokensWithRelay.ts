@@ -15,8 +15,8 @@ import {
 } from './../accounts/index.js';
 import { getAssociatedTokenAddressSync } from '@solana/spl-token';
 import { deriveSignerSequenceAddress } from '../accounts/signerSequence.js';
-import type { Chain } from '@wormhole-foundation/sdk-connect';
-import { toChainId } from '@wormhole-foundation/sdk-connect';
+import type { Chain } from '@ultronswap-wormhole/sdk-connect';
+import { toChainId } from '@ultronswap-wormhole/sdk-connect';
 
 import BN from 'bn.js';
 

@@ -1,7 +1,7 @@
-import type { Chain, Network, Platform } from "@wormhole-foundation/sdk-base";
-import { circle } from "@wormhole-foundation/sdk-base";
-import type { ChainConfig, ChainsConfig } from "@wormhole-foundation/sdk-definitions";
-import { buildConfig } from "@wormhole-foundation/sdk-definitions";
+import type { Chain, Network, Platform } from "@ultronswap-wormhole/sdk-base";
+import { circle } from "@ultronswap-wormhole/sdk-base";
+import type { ChainConfig, ChainsConfig } from "@ultronswap-wormhole/sdk-definitions";
+import { buildConfig } from "@ultronswap-wormhole/sdk-definitions";
 
 export const DEFAULT_TASK_TIMEOUT = 60 * 1000; // 1 minute in milliseconds
 

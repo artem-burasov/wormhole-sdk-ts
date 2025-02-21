@@ -5,14 +5,14 @@ import {
   chainToPlatform,
   isChain,
   tokens,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 import axios from "axios";
 import fs from "fs";
 import * as prettier from "prettier";
 import * as ts from "typescript";
 
 const tokenConfigUrl = (network: string) =>
-  `https://raw.githubusercontent.com/wormhole-foundation/wormhole-connect/development/wormhole-connect/src/config/${network}/tokens.ts`;
+  `https://raw.githubusercontent.com/ultronswap-wormhole/wormhole-connect/development/wormhole-connect/src/config/${network}/tokens.ts`;
 
 type TokensConfig = { [key: string]: TokenConfig };
 type TokenConfig = {

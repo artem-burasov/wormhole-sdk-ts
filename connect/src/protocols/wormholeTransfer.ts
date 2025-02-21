@@ -1,4 +1,4 @@
-import type { Chain, Network } from "@wormhole-foundation/sdk-base";
+import type { Chain, Network } from "@ultronswap-wormhole/sdk-base";
 import type {
   AttestationId,
   ChainContext,
@@ -8,7 +8,7 @@ import type {
   Signer,
   TokenTransferDetails,
   TxHash,
-} from "@wormhole-foundation/sdk-definitions";
+} from "@ultronswap-wormhole/sdk-definitions";
 import type {
   AttestationReceipt,
   TransferQuote,

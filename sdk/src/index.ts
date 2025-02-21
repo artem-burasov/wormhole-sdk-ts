@@ -10,10 +10,10 @@ import type {
   PlatformToChains,
   PlatformUtils,
   RpcConnection,
-  Signer} from "@wormhole-foundation/sdk-connect";
+  Signer} from "@ultronswap-wormhole/sdk-connect";
 import {
   Wormhole,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 
 /**
  * PlatformDefinition is a type that contains the types necessary to
@@ -102,5 +102,5 @@ export async function wormhole<N extends Network>(
   return new Wormhole(network, loaded, config);
 }
 
-export * from "@wormhole-foundation/sdk-connect";
+export * from "@ultronswap-wormhole/sdk-connect";
 export * from "./addresses.js";

@@ -6,11 +6,11 @@ import {
   UniversalAddress,
   createVAA,
   toNative,
-} from '@wormhole-foundation/sdk-connect';
-import { utils } from '@wormhole-foundation/sdk-definitions/testing';
+} from '@ultronswap-wormhole/sdk-connect';
+import { utils } from '@ultronswap-wormhole/sdk-definitions/testing';
 
-import '@wormhole-foundation/sdk-solana-core';
-import '@wormhole-foundation/sdk-solana-tokenbridge';
+import '@ultronswap-wormhole/sdk-solana-core';
+import '@ultronswap-wormhole/sdk-solana-tokenbridge';
 
 import {
   SolanaChains,

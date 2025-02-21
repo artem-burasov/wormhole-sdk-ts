@@ -1,5 +1,5 @@
-import type { Layout, CustomizableBytes } from "@wormhole-foundation/sdk-base";
-import { customizableBytes } from "@wormhole-foundation/sdk-base";
+import type { Layout, CustomizableBytes } from "@ultronswap-wormhole/sdk-base";
+import { customizableBytes } from "@ultronswap-wormhole/sdk-base";
 import {
   payloadIdItem,
   universalAddressItem,
@@ -10,7 +10,7 @@ import {
 import type { RegisterPayloadTypes, NamedPayloads } from "./../../vaa/index.js";
 import { registerPayloadTypes } from "./../../vaa/index.js";
 
-//from here: https://github.com/wormhole-foundation/wormhole-circle-integration/blob/105ad59bad687416527003e0241dee4020889341/evm/src/circle_integration/CircleIntegrationMessages.sol#L25
+//from here: https://github.com/ultronswap-wormhole/wormhole-circle-integration/blob/105ad59bad687416527003e0241dee4020889341/evm/src/circle_integration/CircleIntegrationMessages.sol#L25
 export const depositWithPayloadLayout = <const P extends CustomizableBytes = undefined>(
   customPayload?: P,
 ) =>
@@ -33,7 +33,7 @@ export const depositWithPayloadLayout = <const P extends CustomizableBytes = und
   ] as const satisfies Layout;
 
 //from here:
-//  https://github.com/wormhole-foundation/example-circle-relayer/blob/189becd8d3935decb17383bd2e61b4909cbddc89/evm/src/circle-relayer/CircleRelayerMessages.sol#L16
+//  https://github.com/ultronswap-wormhole/example-circle-relayer/blob/189becd8d3935decb17383bd2e61b4909cbddc89/evm/src/circle-relayer/CircleRelayerMessages.sol#L16
 export const circleConnectPayload = [
   payloadIdItem(1),
   { name: "targetRelayerFee", ...amountItem },

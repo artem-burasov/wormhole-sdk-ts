@@ -12,14 +12,14 @@ import {
   AptosPlatform,
   AptosUnsignedTransaction,
   type AptosChains,
-} from "@wormhole-foundation/sdk-aptos";
+} from "@ultronswap-wormhole/sdk-aptos";
 import type {
   AccountAddress,
   ChainAddress,
   ChainsConfig,
   Network,
   Platform,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 import {
   CircleBridge,
   CircleTransferMessage,
@@ -27,7 +27,7 @@ import {
   Contracts,
   encoding,
   keccak256,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 import { AptosCCTPMoveScripts, aptosCCTPMoveScripts } from "./moveScripts.js";
 
 export class AptosCircleBridge<N extends Network, C extends AptosChains>

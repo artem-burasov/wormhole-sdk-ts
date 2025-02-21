@@ -25,7 +25,7 @@ import {
   TokenId,
   Wormhole,
   toNative,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 import { ForeignAssetsCache, TokenEntries, TokensConfig } from "../types";
 
 // TODO: Question: How do we handle if a user tries to perform an action for a chain/platform which isn't installed??

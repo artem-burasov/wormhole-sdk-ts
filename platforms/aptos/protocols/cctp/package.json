@@ -1,14 +1,14 @@
 {
-  "name": "@wormhole-foundation/sdk-aptos-cctp",
+  "name": "@ultronswap-wormhole/sdk-aptos-cctp",
   "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wormhole-foundation/wormhole-sdk-ts.git"
+    "url": "git+https://github.com/ultronswap-wormhole/wormhole-sdk-ts.git"
   },
   "bugs": {
-    "url": "https://github.com/wormhole-foundation/wormhole-sdk-ts/issues"
+    "url": "https://github.com/ultronswap-wormhole/wormhole-sdk-ts/issues"
   },
-  "homepage": "https://github.com/wormhole-foundation/wormhole-sdk-ts#readme",
+  "homepage": "https://github.com/ultronswap-wormhole/wormhole-sdk-ts#readme",
   "directories": {
     "test": "tests"
   },
@@ -16,7 +16,7 @@
   "main": "./dist/cjs/index.js",
   "types": "./dist/cjs/index.d.ts",
   "module": "./dist/esm/index.js",
-  "description": "SDK for Aptos chains, used in conjunction with @wormhole-foundation/sdk",
+  "description": "SDK for Aptos chains, used in conjunction with @ultronswap-wormhole/sdk",
   "files": [
     "dist/esm",
     "dist/cjs"
@@ -46,8 +46,8 @@
   },
   "dependencies": {
     "@aptos-labs/ts-sdk": "^1.33.1",
-    "@wormhole-foundation/sdk-connect": "1.0.3",
-    "@wormhole-foundation/sdk-aptos": "1.0.3"
+    "@ultronswap-wormhole/sdk-connect": "1.0.3",
+    "@ultronswap-wormhole/sdk-aptos": "1.0.3"
   },
   "type": "module",
   "exports": {

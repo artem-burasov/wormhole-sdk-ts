@@ -9,7 +9,7 @@ import type {
   Platform,
   TokenBridge,
   TokenId,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 import {
   ErrNotWrapped,
   UniversalAddress,
@@ -18,21 +18,21 @@ import {
   toChain,
   toChainId,
   toNative,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 import type {
   AnySolanaAddress,
   SolanaChains,
   SolanaTransaction,
-} from '@wormhole-foundation/sdk-solana';
+} from '@ultronswap-wormhole/sdk-solana';
 import {
   SolanaAddress,
   SolanaPlatform,
   SolanaUnsignedTransaction,
-} from '@wormhole-foundation/sdk-solana';
+} from '@ultronswap-wormhole/sdk-solana';
 import {
   SolanaWormholeCore,
   utils as coreUtils,
-} from '@wormhole-foundation/sdk-solana-core';
+} from '@ultronswap-wormhole/sdk-solana-core';
 
 import type { Program } from '@coral-xyz/anchor';
 import {
@@ -71,7 +71,7 @@ import {
   getWrappedMeta,
 } from './utils/index.js';
 
-import '@wormhole-foundation/sdk-solana-core';
+import '@ultronswap-wormhole/sdk-solana-core';
 
 export class SolanaTokenBridge<N extends Network, C extends SolanaChains>
   implements TokenBridge<N, C>
@@ -294,7 +294,7 @@ export class SolanaTokenBridge<N extends Network, C extends SolanaChains>
     amount: bigint,
     payload?: Uint8Array,
   ): Promise<SolanaUnsignedTransaction<N, C>> {
-    //  https://github.com/wormhole-foundation/wormhole-connect/blob/development/sdk/src/contexts/solana/context.ts#L245
+    //  https://github.com/ultronswap-wormhole/wormhole-connect/blob/development/sdk/src/contexts/solana/context.ts#L245
 
     const senderAddress = new SolanaAddress(sender).unwrap();
 

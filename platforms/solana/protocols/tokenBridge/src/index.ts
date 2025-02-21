@@ -1,5 +1,5 @@
-import { _platform } from '@wormhole-foundation/sdk-solana';
-import { registerProtocol } from '@wormhole-foundation/sdk-connect';
+import { _platform } from '@ultronswap-wormhole/sdk-solana';
+import { registerProtocol } from '@ultronswap-wormhole/sdk-connect';
 import { SolanaTokenBridge } from './tokenBridge.js';
 import { SolanaAutomaticTokenBridge } from './automaticTokenBridge.js';
 

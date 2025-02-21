@@ -1,4 +1,4 @@
-import { toNative } from "@wormhole-foundation/sdk-connect";
+import { toNative } from "@ultronswap-wormhole/sdk-connect";
 import { CosmwasmAddress } from "./../../src/index.js";
 
 describe("Cosmwasm Address Tests", () => {

@@ -1,11 +1,11 @@
-import type { Chain } from "@wormhole-foundation/sdk-base";
+import type { Chain } from "@ultronswap-wormhole/sdk-base";
 import type {
   Attestation,
   AttestationId,
   ProtocolName,
   TokenId,
   TransactionId,
-} from "@wormhole-foundation/sdk-definitions";
+} from "@ultronswap-wormhole/sdk-definitions";
 import type { QuoteWarning } from "./warnings.js";
 
 // Transfer state machine states

@@ -1,6 +1,6 @@
-import { registerProtocol } from '@wormhole-foundation/sdk-connect';
+import { registerProtocol } from '@ultronswap-wormhole/sdk-connect';
 import { SolanaCircleBridge } from './circleBridge.js';
-import { _platform } from '@wormhole-foundation/sdk-solana';
+import { _platform } from '@ultronswap-wormhole/sdk-solana';
 
 registerProtocol(_platform, 'CircleBridge', SolanaCircleBridge);
 

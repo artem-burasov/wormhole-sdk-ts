@@ -1,14 +1,14 @@
 {
-  "name": "@wormhole-foundation/sdk-algorand-core",
+  "name": "@ultronswap-wormhole/sdk-algorand-core",
   "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wormhole-foundation/connect-sdk.git"
+    "url": "git+https://github.com/ultronswap-wormhole/connect-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/wormhole-foundation/connect-sdk/issues"
+    "url": "https://github.com/ultronswap-wormhole/connect-sdk/issues"
   },
-  "homepage": "https://github.com/wormhole-foundation/connect-sdk#readme",
+  "homepage": "https://github.com/ultronswap-wormhole/connect-sdk#readme",
   "directories": {
     "test": "tests"
   },
@@ -16,7 +16,7 @@
   "main": "./dist/cjs/index.js",
   "types": "./dist/cjs/index.d.ts",
   "module": "./dist/esm/index.js",
-  "description": "SDK for Algorand, used in conjunction with @wormhole-foundation/sdk",
+  "description": "SDK for Algorand, used in conjunction with @ultronswap-wormhole/sdk",
   "files": [
     "dist/esm",
     "dist/cjs"
@@ -45,8 +45,8 @@
     "prettier": "prettier --write ./src"
   },
   "dependencies": {
-    "@wormhole-foundation/sdk-connect": "1.0.3",
-    "@wormhole-foundation/sdk-algorand": "1.0.3"
+    "@ultronswap-wormhole/sdk-connect": "1.0.3",
+    "@ultronswap-wormhole/sdk-algorand": "1.0.3"
   },
   "type": "module",
   "exports": {

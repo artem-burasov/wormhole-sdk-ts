@@ -1,8 +1,8 @@
-import type { Chain, TokenId, WormholeMessageId } from "@wormhole-foundation/sdk-connect";
-import { encoding, isNative, toChainId } from "@wormhole-foundation/sdk-connect";
+import type { Chain, TokenId, WormholeMessageId } from "@ultronswap-wormhole/sdk-connect";
+import { encoding, isNative, toChainId } from "@ultronswap-wormhole/sdk-connect";
 import type { Algodv2 } from "algosdk";
 import { LogicSigAccount, decodeAddress, getApplicationAddress, modelsv2 } from "algosdk";
-import { safeBigIntToNumber } from "@wormhole-foundation/sdk-algorand";
+import { safeBigIntToNumber } from "@ultronswap-wormhole/sdk-algorand";
 
 export const SEED_AMT: number = 1002000;
 export const MAX_KEYS: number = 15;

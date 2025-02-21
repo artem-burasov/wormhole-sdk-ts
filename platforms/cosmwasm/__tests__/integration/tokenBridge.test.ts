@@ -9,11 +9,11 @@ import {
   createVAA,
   encoding,
   toNative,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 import { CosmwasmChains, CosmwasmPlatform, chainToNativeDenoms } from "./../../src/index.js";
 
-import "@wormhole-foundation/sdk-cosmwasm-core";
-import "@wormhole-foundation/sdk-cosmwasm-tokenbridge";
+import "@ultronswap-wormhole/sdk-cosmwasm-core";
+import "@ultronswap-wormhole/sdk-cosmwasm-tokenbridge";
 import nock from "nock";
 import path from "path";
 

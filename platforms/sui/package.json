@@ -1,14 +1,14 @@
 {
-  "name": "@wormhole-foundation/sdk-sui",
+  "name": "@ultronswap-wormhole/sdk-sui",
   "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wormhole-foundation/connect-sdk.git"
+    "url": "git+https://github.com/ultronswap-wormhole/connect-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/wormhole-foundation/connect-sdk/issues"
+    "url": "https://github.com/ultronswap-wormhole/connect-sdk/issues"
   },
-  "homepage": "https://github.com/wormhole-foundation/connect-sdk#readme",
+  "homepage": "https://github.com/ultronswap-wormhole/connect-sdk#readme",
   "directories": {
     "test": "tests"
   },
@@ -16,7 +16,7 @@
   "main": "./dist/cjs/index.js",
   "types": "./dist/cjs/index.d.ts",
   "module": "./dist/esm/index.js",
-  "description": "SDK for EVM chains, used in conjunction with @wormhole-foundation/sdk",
+  "description": "SDK for EVM chains, used in conjunction with @ultronswap-wormhole/sdk",
   "files": [
     "dist/esm",
     "dist/cjs"
@@ -46,7 +46,7 @@
     "test": "jest --config ./jest.config.ts"
   },
   "dependencies": {
-    "@wormhole-foundation/sdk-connect": "1.0.3",
+    "@ultronswap-wormhole/sdk-connect": "1.0.3",
     "@mysten/sui.js": "^0.50.1"
   },
   "type": "module",

@@ -15,8 +15,8 @@ import type {
   SignedTx,
   Signer,
   UnsignedTransaction,
-} from "@wormhole-foundation/sdk-connect";
-import { encoding, nativeChainIds, rpc as rpcConf } from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
+import { encoding, nativeChainIds, rpc as rpcConf } from "@ultronswap-wormhole/sdk-connect";
 import type { CosmwasmEvmChain } from "./constants.js";
 import {
   chainToAddressPrefix,

@@ -1,5 +1,5 @@
-import type { Chain} from "@wormhole-foundation/sdk-base";
-import { guardians } from "@wormhole-foundation/sdk-base";
+import type { Chain} from "@ultronswap-wormhole/sdk-base";
+import { guardians } from "@ultronswap-wormhole/sdk-base";
 import type { PayloadLiteral, VAA } from "../../index.js";
 import {
   Signature,

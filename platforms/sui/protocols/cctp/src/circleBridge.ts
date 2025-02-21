@@ -5,21 +5,21 @@ import {
   type SuiChains,
   SuiUnsignedTransaction,
   uint8ArrayToBCS,
-} from "@wormhole-foundation/sdk-sui";
+} from "@ultronswap-wormhole/sdk-sui";
 import type {
   AccountAddress,
   ChainAddress,
   ChainsConfig,
   Network,
   Platform,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 import {
   CircleBridge,
   CircleTransferMessage,
   circle,
   Contracts,
   encoding,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 
 import { suiCircleObjects } from "./objects.js";
 

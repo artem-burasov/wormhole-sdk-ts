@@ -1,9 +1,9 @@
-import type { Address } from '@wormhole-foundation/sdk-connect';
+import type { Address } from '@ultronswap-wormhole/sdk-connect';
 import {
   UniversalAddress,
   encoding,
   registerNative,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 import { getAddress, isAddress } from 'ethers';
 import type { AnyEvmAddress } from './types.js';
 import { _platform } from './types.js';
@@ -95,7 +95,7 @@ export class EvmAddress implements Address {
   }
 }
 
-declare module '@wormhole-foundation/sdk-connect' {
+declare module '@ultronswap-wormhole/sdk-connect' {
   export namespace WormholeRegistry {
     interface PlatformToNativeAddressMapping {
       Evm: EvmAddress;

@@ -1,5 +1,5 @@
-import type { Network, RoArray } from "@wormhole-foundation/sdk-connect";
-import { constMap } from "@wormhole-foundation/sdk-connect";
+import type { Network, RoArray } from "@ultronswap-wormhole/sdk-connect";
+import { constMap } from "@ultronswap-wormhole/sdk-connect";
 import type { CosmwasmChains } from "./types.js";
 
 export const DEFAULT_FEE = 1_000_000;
@@ -137,13 +137,13 @@ const gatewayConnections = [
   [
     "Testnet",
     [
-      ["Wormchain", 
+      ["Wormchain",
         {
-          Cosmoshub: "channel-5", 
+          Cosmoshub: "channel-5",
           Injective: "channel-15",
           Kujira:"channel-16",
           Stargaze: "channel-17",
-          Osmosis: "channel-19", 
+          Osmosis: "channel-19",
           Dymension: "channel-18",
           Evmos: "channel-20",
         }

@@ -5,8 +5,8 @@ import type {
   Signer,
   TxHash,
   UnsignedTransaction,
-} from "@wormhole-foundation/sdk-connect";
-import { encoding } from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
+import { encoding } from "@ultronswap-wormhole/sdk-connect";
 import { AptosPlatform } from "./platform.js";
 import type { AptosChains } from "./types.js";
 import {

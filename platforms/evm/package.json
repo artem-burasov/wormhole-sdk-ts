@@ -1,14 +1,14 @@
 {
-  "name": "@wormhole-foundation/sdk-evm",
+  "name": "@ultronswap-wormhole/sdk-evm",
   "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wormhole-foundation/connect-sdk.git"
+    "url": "git+https://github.com/ultronswap-wormhole/connect-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/wormhole-foundation/connect-sdk/issues"
+    "url": "https://github.com/ultronswap-wormhole/connect-sdk/issues"
   },
-  "homepage": "https://github.com/wormhole-foundation/connect-sdk#readme",
+  "homepage": "https://github.com/ultronswap-wormhole/connect-sdk#readme",
   "directories": {
     "test": "tests"
   },
@@ -17,7 +17,7 @@
   "types": "./dist/cjs/index.d.ts",
   "module": "./dist/esm/index.js",
   "author": "",
-  "description": "SDK for EVM chains, used in conjunction with @wormhole-foundation/sdk",
+  "description": "SDK for EVM chains, used in conjunction with @ultronswap-wormhole/sdk",
   "files": [
     "dist/esm",
     "dist/cjs"
@@ -57,7 +57,7 @@
     "nock": "13.3.8"
   },
   "dependencies": {
-    "@wormhole-foundation/sdk-connect": "1.0.3",
+    "@ultronswap-wormhole/sdk-connect": "1.0.3",
     "ethers": "^6.5.1"
   },
   "type": "module",

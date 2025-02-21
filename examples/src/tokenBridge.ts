@@ -1,10 +1,10 @@
-import type { Chain, Network, TokenId } from "@wormhole-foundation/sdk";
-import { TokenTransfer, Wormhole, amount, isTokenId, wormhole } from "@wormhole-foundation/sdk";
+import type { Chain, Network, TokenId } from "@ultronswap-wormhole/sdk";
+import { TokenTransfer, Wormhole, amount, isTokenId, wormhole } from "@ultronswap-wormhole/sdk";
 
 // Import the platform-specific packages
 
-import evm from "@wormhole-foundation/sdk/evm";
-import solana from "@wormhole-foundation/sdk/solana";
+import evm from "@ultronswap-wormhole/sdk/evm";
+import solana from "@ultronswap-wormhole/sdk/solana";
 import type { SignerStuff } from "./helpers/index.js";
 import { getSigner, waitLog } from "./helpers/index.js";
 

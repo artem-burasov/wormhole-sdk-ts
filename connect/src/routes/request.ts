@@ -1,6 +1,6 @@
-import type { Chain, Network } from "@wormhole-foundation/sdk-base";
-import { amount } from "@wormhole-foundation/sdk-base";
-import type { ChainContext, TokenId } from "@wormhole-foundation/sdk-definitions";
+import type { Chain, Network } from "@ultronswap-wormhole/sdk-base";
+import { amount } from "@ultronswap-wormhole/sdk-base";
+import type { ChainContext, TokenId } from "@ultronswap-wormhole/sdk-definitions";
 import type { TransferQuote } from "../types.js";
 import type { Wormhole } from "../wormhole.js";
 import type { TokenDetails } from "./token.js";

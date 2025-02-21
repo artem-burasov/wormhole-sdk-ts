@@ -1,5 +1,5 @@
-import { encoding, serialize } from "@wormhole-foundation/sdk";
-import { mocks } from "@wormhole-foundation/sdk-definitions/testing";
+import { encoding, serialize } from "@ultronswap-wormhole/sdk";
+import { mocks } from "@ultronswap-wormhole/sdk-definitions/testing";
 
 (async function () {
   const guardians = mocks.devnetGuardianSet();

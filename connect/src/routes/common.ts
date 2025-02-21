@@ -1,5 +1,5 @@
-import type { Network } from "@wormhole-foundation/sdk-base";
-import type { Signer } from "@wormhole-foundation/sdk-definitions";
+import type { Network } from "@ultronswap-wormhole/sdk-base";
+import type { Signer } from "@ultronswap-wormhole/sdk-definitions";
 import type { Receipt } from "./types.js";
 import type { Route } from "./route.js";
 import { isFinalizable, isManual } from "./route.js";

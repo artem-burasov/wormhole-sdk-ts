@@ -9,7 +9,7 @@ This package contains icons for all of the Wormhole connected [chains](https://d
 Install this package
 
 ```bash
-npm install @wormhole-foundation/sdk-icons
+npm install @ultronswap-wormhole/sdk-icons
 ```
 
 ## Usage
@@ -17,8 +17,8 @@ npm install @wormhole-foundation/sdk-icons
 Getting started is simple, just import Wormhole and the [Platform](#platforms) modules you wish to support
 
 ```ts
-import { Chain } from "@wormhole-foundation/sdk-base";
-import { chainToIcon } from "@wormhole-foundation/sdk-icons";
+import { Chain } from "@ultronswap-wormhole/sdk-base";
+import { chainToIcon } from "@ultronswap-wormhole/sdk-icons";
 
 function ChainIcon({chain}: {chain: Chain}) {
     const icon = chainToIcon(chain);

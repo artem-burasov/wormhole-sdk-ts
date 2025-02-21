@@ -1,7 +1,7 @@
-import { Chain, Wormhole, platformToChains } from "@wormhole-foundation/sdk-connect";
-import { CosmwasmPlatform } from "@wormhole-foundation/sdk-cosmwasm";
+import { Chain, Wormhole, platformToChains } from "@ultronswap-wormhole/sdk-connect";
+import { CosmwasmPlatform } from "@ultronswap-wormhole/sdk-cosmwasm";
 
-import "@wormhole-foundation/sdk-cosmwasm-ibc";
+import "@ultronswap-wormhole/sdk-cosmwasm-ibc";
 
 (async function () {
   const wh = new Wormhole("Mainnet", [CosmwasmPlatform]);

@@ -1,11 +1,11 @@
 import { describe, expect, test } from "@jest/globals";
-import { CONFIG, TokenBridge, toNative } from "@wormhole-foundation/sdk-connect";
-import { utils } from "@wormhole-foundation/sdk-definitions/testing";
+import { CONFIG, TokenBridge, toNative } from "@ultronswap-wormhole/sdk-connect";
+import { utils } from "@ultronswap-wormhole/sdk-definitions/testing";
 import { SuiChains, SuiPlatform } from "./../../src/index.js";
 import { SUI_COIN } from "../../src/constants.js";
 
-import "@wormhole-foundation/sdk-sui-core";
-import "@wormhole-foundation/sdk-sui-tokenbridge";
+import "@ultronswap-wormhole/sdk-sui-core";
+import "@ultronswap-wormhole/sdk-sui-tokenbridge";
 
 import nock from "nock";
 import path from "path";

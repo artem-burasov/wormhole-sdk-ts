@@ -3,8 +3,8 @@ import type {
   NativeAddress,
   Network,
   UniversalOrNative,
-} from '@wormhole-foundation/sdk-connect';
-import { ChainContext } from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
+import { ChainContext } from '@ultronswap-wormhole/sdk-connect';
 import { SolanaAddress } from './address.js';
 import type { SolanaChains } from './types.js';
 

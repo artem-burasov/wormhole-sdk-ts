@@ -9,9 +9,9 @@ import {
   SYSVAR_CLOCK_PUBKEY,
   SYSVAR_RENT_PUBKEY,
 } from '@solana/web3.js';
-import type { VAA } from '@wormhole-foundation/sdk-connect';
-import { toChainId } from '@wormhole-foundation/sdk-connect';
-import { SolanaAddress, utils } from '@wormhole-foundation/sdk-solana';
+import type { VAA } from '@ultronswap-wormhole/sdk-connect';
+import { toChainId } from '@ultronswap-wormhole/sdk-connect';
+import { SolanaAddress, utils } from '@ultronswap-wormhole/sdk-solana';
 import {
   deriveClaimKey,
   deriveFeeCollectorKey,

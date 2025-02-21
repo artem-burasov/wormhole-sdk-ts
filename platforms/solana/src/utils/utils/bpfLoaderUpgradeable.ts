@@ -2,7 +2,7 @@ import type { PublicKeyInitData } from '@solana/web3.js';
 import { PublicKey } from '@solana/web3.js';
 import { deriveAddress } from './account.js';
 
-import type { CustomConversion, Layout } from '@wormhole-foundation/sdk-connect';
+import type { CustomConversion, Layout } from '@ultronswap-wormhole/sdk-connect';
 
 export const BPF_LOADER_UPGRADEABLE_PROGRAM_ID = new PublicKey(
   "BPFLoaderUpgradeab1e11111111111111111111111"

@@ -1,14 +1,14 @@
 // EXAMPLE_IMPORTS
-import { wormhole } from "@wormhole-foundation/sdk";
+import { wormhole } from "@ultronswap-wormhole/sdk";
 // EXAMPLE_IMPORTS
 
-import { Wormhole, amount, signSendWait } from "@wormhole-foundation/sdk";
-import algorand from "@wormhole-foundation/sdk/algorand";
-import aptos from "@wormhole-foundation/sdk/aptos";
-import cosmwasm from "@wormhole-foundation/sdk/cosmwasm";
-import evm from "@wormhole-foundation/sdk/evm";
-import solana from "@wormhole-foundation/sdk/solana";
-import sui from "@wormhole-foundation/sdk/sui";
+import { Wormhole, amount, signSendWait } from "@ultronswap-wormhole/sdk";
+import algorand from "@ultronswap-wormhole/sdk/algorand";
+import aptos from "@ultronswap-wormhole/sdk/aptos";
+import cosmwasm from "@ultronswap-wormhole/sdk/cosmwasm";
+import evm from "@ultronswap-wormhole/sdk/evm";
+import solana from "@ultronswap-wormhole/sdk/solana";
+import sui from "@ultronswap-wormhole/sdk/sui";
 import { getSigner } from "./helpers/index.js";
 
 (async function () {

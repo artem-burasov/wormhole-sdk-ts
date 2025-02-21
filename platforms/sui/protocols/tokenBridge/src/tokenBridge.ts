@@ -14,7 +14,7 @@ import type {
   TokenAddress,
   TokenBridge,
   TokenId,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 import {
   ErrNotWrapped,
   UniversalAddress,
@@ -27,10 +27,10 @@ import {
   toChain,
   toChainId,
   toNative,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 
-import type { SuiBuildOutput, SuiChains } from "@wormhole-foundation/sdk-sui";
-import { SuiAddress } from "@wormhole-foundation/sdk-sui";
+import type { SuiBuildOutput, SuiChains } from "@ultronswap-wormhole/sdk-sui";
+import { SuiAddress } from "@ultronswap-wormhole/sdk-sui";
 import {
   SuiPlatform,
   SuiUnsignedTransaction,
@@ -50,10 +50,10 @@ import {
   publishPackage,
   trimSuiType,
   uint8ArrayToBCS,
-} from "@wormhole-foundation/sdk-sui";
+} from "@ultronswap-wormhole/sdk-sui";
 import { getTokenCoinType, getTokenFromTokenRegistry } from "./utils.js";
 
-import "@wormhole-foundation/sdk-sui-core";
+import "@ultronswap-wormhole/sdk-sui-core";
 
 export class SuiTokenBridge<N extends Network, C extends SuiChains> implements TokenBridge<N, C> {
   readonly coreBridgeObjectId: string;

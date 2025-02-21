@@ -6,7 +6,7 @@ import type {
 import type {
   Network,
   UnsignedTransaction,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 import type { SolanaChains } from './types.js';
 
 export type SolanaTransaction = {

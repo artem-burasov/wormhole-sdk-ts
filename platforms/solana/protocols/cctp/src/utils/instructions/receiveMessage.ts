@@ -4,9 +4,9 @@ import { PublicKey, SystemProgram } from '@solana/web3.js';
 import type {
   CircleAttestation,
   circle,
-} from '@wormhole-foundation/sdk-connect';
-import { CircleBridge, encoding } from '@wormhole-foundation/sdk-connect';
-import { SolanaAddress } from '@wormhole-foundation/sdk-solana';
+} from '@ultronswap-wormhole/sdk-connect';
+import { CircleBridge, encoding } from '@ultronswap-wormhole/sdk-connect';
+import { SolanaAddress } from '@ultronswap-wormhole/sdk-solana';
 import { createMessageTransmitterProgramInterface } from '../program.js';
 import { findProgramAddress } from './../accounts/index.js';
 

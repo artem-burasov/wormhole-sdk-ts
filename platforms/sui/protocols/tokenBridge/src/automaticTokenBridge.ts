@@ -16,7 +16,7 @@ import {
   type Network,
   type Platform,
   type TokenAddress,
-} from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
 import {
   getObjectFields,
   getPackageId,
@@ -30,8 +30,8 @@ import {
   SuiPlatform,
   SuiUnsignedTransaction,
   uint8ArrayToBCS,
-} from "@wormhole-foundation/sdk-sui";
-import "@wormhole-foundation/sdk-sui-core";
+} from "@ultronswap-wormhole/sdk-sui";
+import "@ultronswap-wormhole/sdk-sui-core";
 import { getTokenCoinType } from "./utils.js";
 
 export interface TokenInfo {

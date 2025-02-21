@@ -1,4 +1,4 @@
-import type { PlatformToChains, UniversalOrNative } from "@wormhole-foundation/sdk-connect";
+import type { PlatformToChains, UniversalOrNative } from "@ultronswap-wormhole/sdk-connect";
 
 /**
  * Runtime value for the Cosmwasm Platform

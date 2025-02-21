@@ -1,14 +1,14 @@
 {
-  "name": "@wormhole-foundation/sdk",
+  "name": "@ultronswap-wormhole/sdk",
   "version": "1.0.3",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wormhole-foundation/connect-sdk.git"
+    "url": "git+https://github.com/ultronswap-wormhole/connect-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/wormhole-foundation/connect-sdk/issues"
+    "url": "https://github.com/ultronswap-wormhole/connect-sdk/issues"
   },
-  "homepage": "https://github.com/wormhole-foundation/connect-sdk#readme",
+  "homepage": "https://github.com/ultronswap-wormhole/connect-sdk#readme",
   "directories": {
     "test": "__tests__"
   },
@@ -384,33 +384,33 @@
     }
   },
   "dependencies": {
-    "@wormhole-foundation/sdk-base": "1.0.3",
-    "@wormhole-foundation/sdk-definitions": "1.0.3",
-    "@wormhole-foundation/sdk-connect": "1.0.3",
-    "@wormhole-foundation/sdk-evm": "1.0.3",
-    "@wormhole-foundation/sdk-evm-core": "1.0.3",
-    "@wormhole-foundation/sdk-evm-tokenbridge": "1.0.3",
-    "@wormhole-foundation/sdk-evm-portico": "1.0.3",
-    "@wormhole-foundation/sdk-evm-cctp": "1.0.3",
-    "@wormhole-foundation/sdk-solana": "1.0.3",
-    "@wormhole-foundation/sdk-solana-core": "1.0.3",
-    "@wormhole-foundation/sdk-solana-tokenbridge": "1.0.3",
-    "@wormhole-foundation/sdk-solana-cctp": "1.0.3",
-    "@wormhole-foundation/sdk-cosmwasm": "1.0.3",
-    "@wormhole-foundation/sdk-cosmwasm-core": "1.0.3",
-    "@wormhole-foundation/sdk-cosmwasm-tokenbridge": "1.0.3",
-    "@wormhole-foundation/sdk-cosmwasm-ibc": "1.0.3",
-    "@wormhole-foundation/sdk-sui": "1.0.3",
-    "@wormhole-foundation/sdk-sui-core": "1.0.3",
-    "@wormhole-foundation/sdk-sui-tokenbridge": "1.0.3",
-    "@wormhole-foundation/sdk-sui-cctp": "1.0.3",
-    "@wormhole-foundation/sdk-aptos": "1.0.3",
-    "@wormhole-foundation/sdk-aptos-core": "1.0.3",
-    "@wormhole-foundation/sdk-aptos-tokenbridge": "1.0.3",
-    "@wormhole-foundation/sdk-aptos-cctp": "1.0.3",
-    "@wormhole-foundation/sdk-algorand": "1.0.3",
-    "@wormhole-foundation/sdk-algorand-core": "1.0.3",
-    "@wormhole-foundation/sdk-algorand-tokenbridge": "1.0.3"
+    "@ultronswap-wormhole/sdk-base": "1.0.3",
+    "@ultronswap-wormhole/sdk-definitions": "1.0.3",
+    "@ultronswap-wormhole/sdk-connect": "1.0.3",
+    "@ultronswap-wormhole/sdk-evm": "1.0.3",
+    "@ultronswap-wormhole/sdk-evm-core": "1.0.3",
+    "@ultronswap-wormhole/sdk-evm-tokenbridge": "1.0.3",
+    "@ultronswap-wormhole/sdk-evm-portico": "1.0.3",
+    "@ultronswap-wormhole/sdk-evm-cctp": "1.0.3",
+    "@ultronswap-wormhole/sdk-solana": "1.0.3",
+    "@ultronswap-wormhole/sdk-solana-core": "1.0.3",
+    "@ultronswap-wormhole/sdk-solana-tokenbridge": "1.0.3",
+    "@ultronswap-wormhole/sdk-solana-cctp": "1.0.3",
+    "@ultronswap-wormhole/sdk-cosmwasm": "1.0.3",
+    "@ultronswap-wormhole/sdk-cosmwasm-core": "1.0.3",
+    "@ultronswap-wormhole/sdk-cosmwasm-tokenbridge": "1.0.3",
+    "@ultronswap-wormhole/sdk-cosmwasm-ibc": "1.0.3",
+    "@ultronswap-wormhole/sdk-sui": "1.0.3",
+    "@ultronswap-wormhole/sdk-sui-core": "1.0.3",
+    "@ultronswap-wormhole/sdk-sui-tokenbridge": "1.0.3",
+    "@ultronswap-wormhole/sdk-sui-cctp": "1.0.3",
+    "@ultronswap-wormhole/sdk-aptos": "1.0.3",
+    "@ultronswap-wormhole/sdk-aptos-core": "1.0.3",
+    "@ultronswap-wormhole/sdk-aptos-tokenbridge": "1.0.3",
+    "@ultronswap-wormhole/sdk-aptos-cctp": "1.0.3",
+    "@ultronswap-wormhole/sdk-algorand": "1.0.3",
+    "@ultronswap-wormhole/sdk-algorand-core": "1.0.3",
+    "@ultronswap-wormhole/sdk-algorand-tokenbridge": "1.0.3"
   },
   "type": "module"
 }

@@ -5,11 +5,11 @@ import {
   UniversalAddress,
   createVAA,
   toNative,
-} from "@wormhole-foundation/sdk-connect";
-import { utils } from "@wormhole-foundation/sdk-definitions/testing";
+} from "@ultronswap-wormhole/sdk-connect";
+import { utils } from "@ultronswap-wormhole/sdk-definitions/testing";
 
-import "@wormhole-foundation/sdk-aptos-core";
-import "@wormhole-foundation/sdk-aptos-tokenbridge";
+import "@ultronswap-wormhole/sdk-aptos-core";
+import "@ultronswap-wormhole/sdk-aptos-tokenbridge";
 
 import { APTOS_COIN, AptosChains, AptosPlatform } from "./../../src/index.js";
 

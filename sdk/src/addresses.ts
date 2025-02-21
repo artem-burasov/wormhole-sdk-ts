@@ -1,9 +1,9 @@
 // Import the `address` conditional export from each
 // platform to Register the address parser/formatter
 
-import "@wormhole-foundation/sdk-algorand/address";
-import "@wormhole-foundation/sdk-aptos/address";
-import "@wormhole-foundation/sdk-cosmwasm/address";
-import "@wormhole-foundation/sdk-evm/address";
-import "@wormhole-foundation/sdk-solana/address";
-import "@wormhole-foundation/sdk-sui/address";
+import "@ultronswap-wormhole/sdk-algorand/address";
+import "@ultronswap-wormhole/sdk-aptos/address";
+import "@ultronswap-wormhole/sdk-cosmwasm/address";
+import "@ultronswap-wormhole/sdk-evm/address";
+import "@ultronswap-wormhole/sdk-solana/address";
+import "@ultronswap-wormhole/sdk-sui/address";

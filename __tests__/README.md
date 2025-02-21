@@ -26,7 +26,7 @@ The root `__tests__` directory should contain end-to-end tests with things like 
 
 <!-- 
 
-https://github.com/wormhole-foundation/wormhole-circle-integration/blob/main/evm/ts/test/00_environment.ts
+https://github.com/ultronswap-wormhole/wormhole-circle-integration/blob/main/evm/ts/test/00_environment.ts
 
 https://github.com/circlefin/evm-cctp-contracts/blob/master/anvil/crosschainTransferIT.py#L261
 

@@ -1,5 +1,5 @@
-import type { Chain, Network, Platform } from "@wormhole-foundation/sdk-base";
-import { chainToPlatform, circle } from "@wormhole-foundation/sdk-base";
+import type { Chain, Network, Platform } from "@ultronswap-wormhole/sdk-base";
+import { chainToPlatform, circle } from "@ultronswap-wormhole/sdk-base";
 import type {
   ChainAddress,
   ChainContext,
@@ -15,13 +15,13 @@ import type {
   UniversalAddress,
   WormholeMessageId,
   deserialize,
-} from "@wormhole-foundation/sdk-definitions";
+} from "@ultronswap-wormhole/sdk-definitions";
 import {
   canonicalAddress,
   isNative,
   nativeTokenId,
   toNative,
-} from "@wormhole-foundation/sdk-definitions";
+} from "@ultronswap-wormhole/sdk-definitions";
 import { getCircleAttestationWithRetry } from "./circle-api.js";
 import type { WormholeConfig, WormholeConfigOverrides } from "./config.js";
 import { applyWormholeConfigOverrides } from "./config.js";

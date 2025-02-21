@@ -1,6 +1,6 @@
 // EXAMPLE_SYNC_IMPORT
-import { Wormhole } from "@wormhole-foundation/sdk";
-import evm from "@wormhole-foundation/sdk/platforms/evm";
+import { Wormhole } from "@ultronswap-wormhole/sdk";
+import evm from "@ultronswap-wormhole/sdk/platforms/evm";
 
 const wh = new Wormhole("Mainnet", [evm.Platform]);
 console.log(wh.config);

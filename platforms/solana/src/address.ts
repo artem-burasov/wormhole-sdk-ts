@@ -1,9 +1,9 @@
-import type { Address } from '@wormhole-foundation/sdk-connect';
+import type { Address } from '@ultronswap-wormhole/sdk-connect';
 import {
   UniversalAddress,
   encoding,
   registerNative,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 
 import { PublicKey } from '@solana/web3.js';
 import type { AnySolanaAddress } from './types.js';
@@ -60,7 +60,7 @@ export class SolanaAddress implements Address {
   }
 }
 
-declare module '@wormhole-foundation/sdk-connect' {
+declare module '@ultronswap-wormhole/sdk-connect' {
   export namespace WormholeRegistry {
     interface PlatformToNativeAddressMapping {
       Solana: SolanaAddress;

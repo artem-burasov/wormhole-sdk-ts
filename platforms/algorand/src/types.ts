@@ -1,4 +1,4 @@
-import type { PlatformToChains, UniversalOrNative } from "@wormhole-foundation/sdk-connect";
+import type { PlatformToChains, UniversalOrNative } from "@ultronswap-wormhole/sdk-connect";
 import type { Transaction } from "algosdk";
 
 /**

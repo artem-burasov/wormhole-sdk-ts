@@ -8,26 +8,26 @@ import type {
   NativeAddress,
   Network,
   TokenAddress,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 import {
   isNative,
   serialize,
   toNative,
   nativeChainIds,
   toChainId,
-} from '@wormhole-foundation/sdk-connect';
-import type { EvmChains, EvmPlatformType } from '@wormhole-foundation/sdk-evm';
+} from '@ultronswap-wormhole/sdk-connect';
+import type { EvmChains, EvmPlatformType } from '@ultronswap-wormhole/sdk-evm';
 import {
   EvmAddress,
   EvmPlatform,
   EvmUnsignedTransaction,
   addChainId,
   addFrom,
-} from '@wormhole-foundation/sdk-evm';
+} from '@ultronswap-wormhole/sdk-evm';
 import type { Provider, TransactionRequest } from 'ethers';
 import { ethers_contracts } from './index.js';
 
-import '@wormhole-foundation/sdk-evm-core';
+import '@ultronswap-wormhole/sdk-evm-core';
 
 export class EvmAutomaticTokenBridge<N extends Network, C extends EvmChains>
   implements AutomaticTokenBridge<N, C>

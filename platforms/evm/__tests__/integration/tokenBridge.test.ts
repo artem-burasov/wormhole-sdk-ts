@@ -10,11 +10,11 @@ import {
   encoding,
   nativeChainIds,
   toNative,
-} from '@wormhole-foundation/sdk-connect';
-import { utils } from '@wormhole-foundation/sdk-definitions/testing';
+} from '@ultronswap-wormhole/sdk-connect';
+import { utils } from '@ultronswap-wormhole/sdk-definitions/testing';
 
-import '@wormhole-foundation/sdk-evm-core';
-import '@wormhole-foundation/sdk-evm-tokenbridge';
+import '@ultronswap-wormhole/sdk-evm-core';
+import '@ultronswap-wormhole/sdk-evm-tokenbridge';
 
 import { EvmChains, EvmPlatform } from './../../src/index.js';
 

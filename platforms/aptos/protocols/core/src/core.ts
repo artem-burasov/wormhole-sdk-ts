@@ -7,14 +7,14 @@ import type {
   VAA,
   WormholeCore,
   WormholeMessageId,
-} from "@wormhole-foundation/sdk-connect";
-import { UniversalAddress, createVAA, encoding, toChainId } from "@wormhole-foundation/sdk-connect";
+} from "@ultronswap-wormhole/sdk-connect";
+import { UniversalAddress, createVAA, encoding, toChainId } from "@ultronswap-wormhole/sdk-connect";
 import type {
   AnyAptosAddress,
   AptosChains,
   AptosPlatformType,
-} from "@wormhole-foundation/sdk-aptos";
-import { AptosPlatform } from "@wormhole-foundation/sdk-aptos";
+} from "@ultronswap-wormhole/sdk-aptos";
+import { AptosPlatform } from "@ultronswap-wormhole/sdk-aptos";
 import { Aptos } from "@aptos-labs/ts-sdk";
 
 export class AptosWormholeCore<N extends Network, C extends AptosChains>

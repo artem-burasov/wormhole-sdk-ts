@@ -10,7 +10,7 @@ import type {
   TokenAddress,
   TokenBridge,
   TokenId,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 import {
   ErrNotWrapped,
   UniversalAddress,
@@ -21,13 +21,13 @@ import {
   toChain,
   toChainId,
   toNative,
-} from '@wormhole-foundation/sdk-connect';
+} from '@ultronswap-wormhole/sdk-connect';
 import type { Provider, TransactionRequest } from 'ethers';
 
 import { ethers_contracts } from './index.js';
 import type { TokenBridgeContract } from './ethers-contracts/index.js';
 
-import type { EvmChains } from '@wormhole-foundation/sdk-evm';
+import type { EvmChains } from '@ultronswap-wormhole/sdk-evm';
 import {
   EvmAddress,
   EvmPlatform,
@@ -37,9 +37,9 @@ import {
   addFrom,
   unusedArbiterFee,
   unusedNonce,
-} from '@wormhole-foundation/sdk-evm';
+} from '@ultronswap-wormhole/sdk-evm';
 
-import '@wormhole-foundation/sdk-evm-core';
+import '@ultronswap-wormhole/sdk-evm-core';
 
 export class EvmTokenBridge<N extends Network, C extends EvmChains>
   implements TokenBridge<N, C>

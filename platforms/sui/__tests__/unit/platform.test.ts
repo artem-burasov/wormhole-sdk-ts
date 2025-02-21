@@ -1,11 +1,11 @@
 import { expect, test } from "@jest/globals";
 
-import { DEFAULT_NETWORK, CONFIG, chainToPlatform, chains } from "@wormhole-foundation/sdk-connect";
+import { DEFAULT_NETWORK, CONFIG, chainToPlatform, chains } from "@ultronswap-wormhole/sdk-connect";
 
 import { SuiChains, SuiPlatform } from "./../../src/index.js";
 
-import "@wormhole-foundation/sdk-sui-core";
-import "@wormhole-foundation/sdk-sui-tokenbridge";
+import "@ultronswap-wormhole/sdk-sui-core";
+import "@ultronswap-wormhole/sdk-sui-tokenbridge";
 import { SuiClient } from "@mysten/sui.js/client";
 
 const network = DEFAULT_NETWORK;

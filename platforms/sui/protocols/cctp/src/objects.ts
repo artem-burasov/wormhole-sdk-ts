@@ -1,4 +1,4 @@
-import { constMap, type MapLevels, type Network } from "@wormhole-foundation/sdk-connect";
+import { constMap, type MapLevels, type Network } from "@ultronswap-wormhole/sdk-connect";
 
 type SuiCircleObjects = {
   tokenMessengerState: string;

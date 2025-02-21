@@ -1,15 +1,15 @@
 {
-  "name": "@wormhole-foundation/sdk-token-registry",
+  "name": "@ultronswap-wormhole/sdk-token-registry",
   "version": "0.3.0",
-  
+
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wormhole-foundation/connect-sdk.git"
+    "url": "git+https://github.com/ultronswap-wormhole/connect-sdk.git"
   },
   "bugs": {
-    "url": "https://github.com/wormhole-foundation/connect-sdk/issues"
+    "url": "https://github.com/ultronswap-wormhole/connect-sdk/issues"
   },
-  "homepage": "https://github.com/wormhole-foundation/connect-sdk#readme",
+  "homepage": "https://github.com/ultronswap-wormhole/connect-sdk#readme",
   "directories": {
     "test": "__tests__"
   },
@@ -33,15 +33,15 @@
   },
   "dependencies": {
     "axios": "^1.4.0",
-    "@wormhole-foundation/sdk-connect": "^0.3.0",
-    "@wormhole-foundation/sdk-evm": "^0.3.0",
-    "@wormhole-foundation/sdk-evm-core": "^0.3.0",
-    "@wormhole-foundation/sdk-evm-tokenbridge": "^0.3.0",
-    "@wormhole-foundation/sdk-solana": "^0.3.0",
-    "@wormhole-foundation/sdk-solana-core": "^0.3.0",
-    "@wormhole-foundation/sdk-solana-tokenbridge": "^0.3.0",
-    "@wormhole-foundation/sdk-cosmwasm": "^0.3.0",
-    "@wormhole-foundation/sdk-cosmwasm-core": "^0.3.0",
-    "@wormhole-foundation/sdk-cosmwasm-tokenbridge": "^0.3.0"
+    "@ultronswap-wormhole/sdk-connect": "^0.3.0",
+    "@ultronswap-wormhole/sdk-evm": "^0.3.0",
+    "@ultronswap-wormhole/sdk-evm-core": "^0.3.0",
+    "@ultronswap-wormhole/sdk-evm-tokenbridge": "^0.3.0",
+    "@ultronswap-wormhole/sdk-solana": "^0.3.0",
+    "@ultronswap-wormhole/sdk-solana-core": "^0.3.0",
+    "@ultronswap-wormhole/sdk-solana-tokenbridge": "^0.3.0",
+    "@ultronswap-wormhole/sdk-cosmwasm": "^0.3.0",
+    "@ultronswap-wormhole/sdk-cosmwasm-core": "^0.3.0",
+    "@ultronswap-wormhole/sdk-cosmwasm-tokenbridge": "^0.3.0"
   }
 }

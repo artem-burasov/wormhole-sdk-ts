@@ -1,5 +1,5 @@
-import { applyChainsConfigConfigOverrides } from "@wormhole-foundation/sdk-connect";
-import * as _solana from "@wormhole-foundation/sdk-solana";
+import { applyChainsConfigConfigOverrides } from "@ultronswap-wormhole/sdk-connect";
+import * as _solana from "@ultronswap-wormhole/sdk-solana";
 import type { PlatformDefinition } from "../index.js";
 /** Platform and protocol definitons for Solana */
 const solana: PlatformDefinition<typeof _solana._platform> = {
@@ -7,9 +7,9 @@ const solana: PlatformDefinition<typeof _solana._platform> = {
   Platform: _solana.SolanaPlatform,
   getSigner: _solana.getSolanaSignAndSendSigner,
   protocols: {
-    WormholeCore: () => import("@wormhole-foundation/sdk-solana-core"),
-    TokenBridge: () => import("@wormhole-foundation/sdk-solana-tokenbridge"),
-    CircleBridge: () => import("@wormhole-foundation/sdk-solana-cctp"),
+    WormholeCore: () => import("@ultronswap-wormhole/sdk-solana-core"),
+    TokenBridge: () => import("@ultronswap-wormhole/sdk-solana-tokenbridge"),
+    CircleBridge: () => import("@ultronswap-wormhole/sdk-solana-cctp"),
   },
   getChain: (network, chain, overrides?) =>
     new _solana.SolanaChain(

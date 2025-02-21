@@ -1,11 +1,11 @@
 load('ext://namespace', 'namespace_create')
 load('ext://git_resource', 'git_checkout')
 
-git_checkout('git@github.com:wormhole-foundation/wormhole.git#main', "__tests__/staging/wormhole")
+git_checkout('git@github.com:ultronswap-wormhole/wormhole.git#main', "__tests__/staging/wormhole")
 load("__tests__/staging/wormhole/Tiltfile", "namespace", "k8s_yaml_with_ns", "set_env_in_jobs", "num_guardians")
 config.clear_enabled_resources()
 config.set_enabled_resources([
-    "guardian", # Also adds in all the chains we need 
+    "guardian", # Also adds in all the chains we need
     "connect-sdk-ci-tests"
 ])
 

@@ -1,4 +1,4 @@
-import { constMap, MapLevels, Network } from "@wormhole-foundation/sdk-connect";
+import { constMap, MapLevels, Network } from "@ultronswap-wormhole/sdk-connect";
 
 type HexString = `0x${string}`;
 

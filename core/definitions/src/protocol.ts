@@ -1,5 +1,5 @@
-import type { Chain, Network, Platform, PlatformToChains } from "@wormhole-foundation/sdk-base";
-import { chainToPlatform, isChain } from "@wormhole-foundation/sdk-base";
+import type { Chain, Network, Platform, PlatformToChains } from "@ultronswap-wormhole/sdk-base";
+import { chainToPlatform, isChain } from "@ultronswap-wormhole/sdk-base";
 import type { Contracts } from "./contracts.js";
 import type { WormholeRegistry } from "./registry.js";
 import type { RpcConnection } from "./rpc.js";

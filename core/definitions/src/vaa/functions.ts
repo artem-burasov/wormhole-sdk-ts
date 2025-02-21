@@ -1,10 +1,10 @@
-import type { Layout, LayoutToType } from "@wormhole-foundation/sdk-base";
+import type { Layout, LayoutToType } from "@ultronswap-wormhole/sdk-base";
 import {
   deserializeLayout,
   encoding,
   layoutDiscriminator,
   serializeLayout,
-} from "@wormhole-foundation/sdk-base";
+} from "@ultronswap-wormhole/sdk-base";
 
 import type { ComposeLiteral, LayoutLiteral, LayoutOf, PayloadLiteral } from "./registration.js";
 import { composeLiteral, payloadFactory } from "./registration.js";
@@ -168,7 +168,7 @@ export function deserialize<T extends PayloadLiteral | PayloadDiscriminator>(
   const [header, headerSize] = deserializeLayout(headerLayout, data, false);
 
   //ensure that guardian signature indicies are unique and in ascending order - see:
-  //https://github.com/wormhole-foundation/wormhole/blob/8e0cf4c31f39b5ba06b0f6cdb6e690d3adf3d6a3/ethereum/contracts/Messages.sol#L121
+  //https://github.com/ultronswap-wormhole/wormhole/blob/8e0cf4c31f39b5ba06b0f6cdb6e690d3adf3d6a3/ethereum/contracts/Messages.sol#L121
   for (let i = 1; i < header.signatures.length; ++i)
     if (header.signatures[i]!.guardianIndex <= header.signatures[i - 1]!.guardianIndex)
       throw new Error("Guardian signatures must be in ascending order of guardian set index");
