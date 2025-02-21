@@ -50,7 +50,7 @@
     "clean": "rm -rf ./dist && rm -rf ./.turbo",
     "lint": "npm run prettier && eslint --fix ./src --ext .ts",
     "prettier": "prettier --write ./src",
-    "test": "jest --config ./jest.config.ts"
+    "test": "jest --config ./jest.config.ts --detectOpenHandles"
   },
   "dependencies": {
     "@ultronswap-wormhole/sdk-connect": "1.0.3",
