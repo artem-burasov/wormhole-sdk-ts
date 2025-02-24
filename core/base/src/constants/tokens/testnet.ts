@@ -3279,28 +3279,6 @@ const testnetTokenEntries = [
       ],
     ],
   ],
-  [
-    "Ultron",
-    [
-      [
-        "TKN",
-        {
-          symbol: "TKN",
-          decimals: 18,
-          address: "native",
-          wrappedKey: "WTKN",
-        }
-      ],
-      [
-        "WTKN",
-        {
-          symbol: "WTKN",
-          decimals: 18,
-          address: "0x7315A61E1736d90421b0B7833addD45b821D1B2B",
-        },
-      ],
-    ]
-  ]
 ] as const satisfies MapLevel<Chain, MapLevel<TokenSymbol, TokenConst>>;
 
 export const testnetChainTokens = constMap(testnetTokenEntries, [0, [1, 2]]);
