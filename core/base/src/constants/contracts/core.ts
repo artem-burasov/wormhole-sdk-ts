@@ -97,7 +97,6 @@ export const coreBridgeContracts = [[
     ["Xlayer",          "0xA31aa3FDb7aF7Db93d18DDA4e19F811342EDF780"],
     ["Linea",           "0x79A1027a6A159502049F10906D333EC57E95F083"],
     ["Monad",           "0xBB73cB66C26740F31d1FabDC6b7A46a038A300dd"],
-    ["Ultron",          "0xb04601F0635f2Ae6BBb664929151501b801a1647"],
   ]], [
   "Devnet", [
     ["Solana",    "Bridge1p5gheXUvJ6jGWGeCsgPKgnE3YgdGKRVCMY9o"],
@@ -110,5 +109,6 @@ export const coreBridgeContracts = [[
     ["Sui",       "0x5a5160ca3c2037f4b4051344096ef7a48ebf4400b3f385e57ea90e1628a8bde0"],
     ["Terra2",    "terra14hj2tavq8fpesdwxxcu44rty3hh90vhujrvcmstl4zr3txmfvw9ssrc8au"],
     ["Wormchain", "wormhole17p9rzwnnfxcjp32un9ug7yhhzgtkhvl9jfksztgw5uh69wac2pgshdnj3k"],
+    ["Ultron",     "0xb04601F0635f2Ae6BBb664929151501b801a1647"],
   ]],
 ] as const satisfies MapLevels<[Network, Chain, string]>;

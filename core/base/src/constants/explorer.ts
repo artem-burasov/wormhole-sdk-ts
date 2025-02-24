@@ -123,6 +123,14 @@ const explorerConfig = [[
         tx: "tx/",
         account: "address/",
       },
+    }], [
+    "Ultron", {
+      name: "ULX Scan",
+      baseUrl: "https://ulxscan.com/",
+      endpoints: {
+        tx: "tx/",
+        account: "address/",
+      },
     }],
   ]], [
   "Testnet", [[
@@ -240,6 +248,14 @@ const explorerConfig = [[
     "Acala", {
       name: "Acala Explorer",
       baseUrl: "https://blockscout.acala-dev.aca-dev.network/",
+      endpoints: {
+        tx: "tx/",
+        account: "address/",
+      },
+    }], [
+    "Ultron", {
+      name: "ULX Scan",
+      baseUrl: "https://explorer.ultron-dev.io/",
       endpoints: {
         tx: "tx/",
         account: "address/",

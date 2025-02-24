@@ -88,7 +88,6 @@ export const tokenBridgeContracts = [[
     ["HyperEVM",        "0x4a8bc80Ed5a4067f1CCf107057b8270E0cC11A78"],
     ["Linea",           "0xC7A204bDBFe983FCD8d8E61D02b475D4073fF97e"],
     ["Monad",           "0xF323dcDe4d33efe83cf455F78F9F6cc656e6B659"],
-    ["Ultron",          "0x8EA98A4e392ee80Dec08AE51987765F20d77f34F"],
   ]], [
   "Devnet", [
     ["Solana",    "B6RHG3mfcckmrYN1UhmJzyS1XX3fZKbkeUcpJe9Sy3FE"],
@@ -101,5 +100,6 @@ export const tokenBridgeContracts = [[
     ["Sui",       "0xa6a3da85bbe05da5bfd953708d56f1a3a023e7fb58e5a824a3d4de3791e8f690"],
     ["Terra2",    "terra1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrquka9l6"],
     ["Wormchain", "wormhole1ghd753shjuwexxywmgs4xz7x2q732vcnkm6h2pyv9s6ah3hylvrqtm7t3h"],
+    ["Ultron",    "0x8EA98A4e392ee80Dec08AE51987765F20d77f34F"],
   ]],
 ] as const satisfies MapLevels<[Network, Chain, string]>;
