@@ -43,6 +43,7 @@ const platformAndChainsEntries = [[
     "HyperEVM",
     "Monad",
     "Hyperliquid",
+    "Ultron"
   ]], [
   "Solana", [
     "Solana",

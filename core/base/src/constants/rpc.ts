@@ -50,6 +50,7 @@ const rpcConfig = [[
     ["Berachain", "https://rpc.berachain.com"],
     ["Unichain",  "https://mainnet.unichain.org"],
     ["Worldchain","https://worldchain-mainnet.g.alchemy.com/public"],
+    ["Ultron",    "https://ultron-rpc.net"],
   ]], [
   "Testnet", [
     ["Ethereum",        "https://eth-sepolia.public.blastapi.io"],
@@ -100,6 +101,7 @@ const rpcConfig = [[
     ["HyperEVM",        "https://api.hyperliquid-testnet.xyz/evm"],
     ["Monad",           "https://testnet-rpc.monad.xyz"],
     ["Noble",           "https://noble-testnet-rpc.polkachu.com/"],
+    ["Ultron",          "https://ultron-dev.io"],
   ]], [
   "Devnet", [
     ["Ethereum",  "http://eth-devnet:8545"],

@@ -45,7 +45,7 @@ const finalityThresholds = [
   ["Moonbeam",  1],
   ["Karura",    1],
   ["Acala",     1],
-  ["Oasis",     1], 
+  ["Oasis",     1],
   // Instant finality
   ["Avalanche", 0],
   ["Sui",       0],
@@ -75,6 +75,7 @@ const finalityThresholds = [
   ["Dymension", 0],
   ["Provenance",0],
   ["Noble",     0],
+  ["Ultron",    0],
   // Testnets
   ["Sepolia", 72],
   ["ArbitrumSepolia", 4096],
@@ -146,6 +147,7 @@ const blockTimeMilliseconds = [
   ["Stargaze",          5_000],
   ["Seda",              7_500],
   ["Berachain",         2_000],
+  ["Ultron",            2_000],
 ] as const satisfies MapLevel<Chain, number>;
 
 /** The amount of time between block production, in milliseconds  */

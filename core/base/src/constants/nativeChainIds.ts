@@ -58,6 +58,7 @@ const chainNetworkNativeChainIdEntries = [
       ["Berachain", 80094n],
       ["Unichain",  130n],
       ["Worldchain",480n],
+      ["Ultron",    1231n],
     ],
   ],
   [
@@ -119,6 +120,7 @@ const chainNetworkNativeChainIdEntries = [
       ["Xlayer",          195n],
       ["Linea",           59141n], // Sepolia
       ["Monad",           10143n],
+      ["Ultron",          1230n],
     ],
   ],
   [

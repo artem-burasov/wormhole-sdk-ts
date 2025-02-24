@@ -39,6 +39,7 @@ export const tokenBridgeContracts = [[
     ["Berachain", "0x3Ff72741fd67D6AD0668d93B41a09248F4700560"],
     ["Unichain",  "0x3Ff72741fd67D6AD0668d93B41a09248F4700560"],
     ["Worldchain","0xc309275443519adca74c9136b02A38eF96E3a1f6"],
+    ["Ultron",    "0xb621ED8c9B357bfAaE9f24af4f731555dD0F341c"],
   ]], [
   "Testnet", [
     ["Solana",          "DZnkkTmCiFWfYTfT41X3Rd1kDgozqzxWaHqsw6W4x2oe"],
@@ -87,6 +88,7 @@ export const tokenBridgeContracts = [[
     ["HyperEVM",        "0x4a8bc80Ed5a4067f1CCf107057b8270E0cC11A78"],
     ["Linea",           "0xC7A204bDBFe983FCD8d8E61D02b475D4073fF97e"],
     ["Monad",           "0xF323dcDe4d33efe83cf455F78F9F6cc656e6B659"],
+    ["Ultron",          "0x8EA98A4e392ee80Dec08AE51987765F20d77f34F"],
   ]], [
   "Devnet", [
     ["Solana",    "B6RHG3mfcckmrYN1UhmJzyS1XX3fZKbkeUcpJe9Sy3FE"],

@@ -73,6 +73,7 @@ const chainIdAndChainEntries = [
   // Hack: 50000 is a fake chain ID
   // Anticipating Hyperliquid chain
   [50000, "Hyperliquid"    ],
+  [10009, "Ultron"         ],
 ] as const satisfies MapLevel<number, string>;
 
 export const [chainIds, chains] = zip(chainIdAndChainEntries);
