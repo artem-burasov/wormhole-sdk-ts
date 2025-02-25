@@ -2190,6 +2190,15 @@ const mainnetTokenEntries = [
           address: "HZ1JovNiVvGrGNiiYvEozEVgZ58xaU3RKwX8eACQBCt3",
         },
       ],
+      [
+        "wULX",
+        {
+          symbol: "wULX",
+          decimals: 8,
+          address: "HKwWmJuNj1nQ1ha4uTnincy9qdgpZPLP79a6hUFPnxro",
+          original: "Ultron",
+        },
+      ],
     ],
   ],
   [
@@ -4260,6 +4269,28 @@ const mainnetTokenEntries = [
           symbol: "WKLAY",
           decimals: 18,
           address: "0xe4f05A66Ec68B54A58B17c22107b02e0232cC817",
+        },
+      ],
+    ],
+  ],
+  [
+    "Ultron",
+    [
+      [
+        "ULX",
+        {
+          symbol: "ULX",
+          decimals: 18,
+          address: "native",
+          wrappedKey: "WULX",
+        },
+      ],
+      [
+        "wULX",
+        {
+          symbol: "wULX",
+          decimals: 18,
+          address: "0x3a4F06431457de873B588846d139EC0d86275d54",
         },
       ],
     ],

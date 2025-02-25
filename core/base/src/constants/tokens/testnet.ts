@@ -1508,6 +1508,15 @@ const testnetTokenEntries = [
           original: "Sei",
         },
       ],
+      [
+        "TKN",
+        {
+          symbol: "TKN",
+          decimals: 9,
+          address: "Av7BdNtcNc7CWci9wyoPoxLRqUSGjPp2v3YVu2pPPgve",
+          original: "Ultron",
+        },
+      ],
     ],
   ],
   [
@@ -3275,6 +3284,36 @@ const testnetTokenEntries = [
           symbol: "WETH",
           decimals: 18,
           address: "0x4200000000000000000000000000000000000006",
+        },
+      ],
+    ],
+  ],
+  [
+    "Ultron",
+    [
+      [
+        "ULX",
+        {
+          symbol: "ULX",
+          decimals: 18,
+          address: "native",
+          wrappedKey: "wULX",
+        },
+      ],
+      [
+        "wULX",
+        {
+          symbol: "wULX",
+          decimals: 18,
+          address: "0xE2619ab40a445526B0AaDff944F994971d2EAc05",
+        },
+      ],
+      [
+        "TKN",
+        {
+          symbol: "TKN",
+          decimals: 18,
+          address: "0x7315A61E1736d90421b0B7833addD45b821D1B2B",
         },
       ],
     ],
