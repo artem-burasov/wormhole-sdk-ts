@@ -3322,7 +3322,7 @@ const testnetTokenEntries = [
         {
           symbol: "WTKN",
           decimals: 9,
-          address: "0x5A4652E87ceC32D597f0ecB465e6a8acC2F06Cc2"
+          address: "0x20141Cc8B1c0966F713a61bDFaBCcdD4D9A79AaC"
         }
       ]
     ],
