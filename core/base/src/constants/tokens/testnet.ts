@@ -3312,8 +3312,8 @@ const testnetTokenEntries = [
         "TKN",
         {
           symbol: "TKN",
-          decimals: 9,
-          address: "0x20141Cc8B1c0966F713a61bDFaBCcdD4D9A79AaC",
+          decimals: 18,
+          address: "0x7315A61E1736d90421b0B7833addD45b821D1B2B",
           wrappedKey: "TKN"
         },
       ],
@@ -3321,8 +3321,8 @@ const testnetTokenEntries = [
         "WTKN",
         {
           symbol: "WTKN",
-          decimals: 18,
-          address: "0x7315A61E1736d90421b0B7833addD45b821D1B2B"
+          decimals: 9,
+          address: "0x5A4652E87ceC32D597f0ecB465e6a8acC2F06Cc2"
         }
       ]
     ],
