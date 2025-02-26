@@ -1514,7 +1514,6 @@ const testnetTokenEntries = [
           symbol: "TKN",
           decimals: 9,
           address: "Av7BdNtcNc7CWci9wyoPoxLRqUSGjPp2v3YVu2pPPgve",
-          original: "Ultron",
         },
       ],
     ],

@@ -33,7 +33,8 @@ const usdcContracts = [[
     ["Polygon",         "0x9999f7Fea5938fD3b1E26A12c3f2fb024e194f97"],
     ["Sui",             "0xa1ec7fc00a6f40db9693ad1415d0c193ad3906494428cf252621037bd7117e29::usdc::USDC"],
     ["Aptos",           "0x69091fbab5f7d635ee7ac5098cf0c1efbe31d68fec0f2cd565e8d168daf52832"],
-    ["Unichain",        "0x31d0220469e10c4E71834a79b1f276d740d3768F"]
+    ["Unichain",        "0x31d0220469e10c4E71834a79b1f276d740d3768F"],
+    ["Ultron",          "0x7315A61E1736d90421b0B7833addD45b821D1B2B"]
   ]],
 ] as const satisfies MapLevel<Network, MapLevel<Chain, string>>;
 export const usdcContract = constMap(usdcContracts);
