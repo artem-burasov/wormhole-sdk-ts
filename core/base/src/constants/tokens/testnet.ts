@@ -3297,7 +3297,7 @@ const testnetTokenEntries = [
           symbol: "ULX",
           decimals: 18,
           address: "native",
-          wrappedKey: "TKN",
+          wrappedKey: "wULX",
         },
       ],
       [
@@ -3314,8 +3314,17 @@ const testnetTokenEntries = [
           symbol: "TKN",
           decimals: 18,
           address: "0x7315A61E1736d90421b0B7833addD45b821D1B2B",
+          wrappedKey: "TKN"
         },
       ],
+      [
+        "WTKN",
+        {
+          symbol: "WTKN",
+          decimals: 9,
+          address: "0x20141Cc8B1c0966F713a61bDFaBCcdD4D9A79AaC"
+        }
+      ]
     ],
   ],
 ] as const satisfies MapLevel<Chain, MapLevel<TokenSymbol, TokenConst>>;
