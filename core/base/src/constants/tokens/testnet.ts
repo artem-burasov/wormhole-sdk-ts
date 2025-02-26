@@ -3297,7 +3297,7 @@ const testnetTokenEntries = [
           symbol: "ULX",
           decimals: 18,
           address: "native",
-          wrappedKey: "wULX",
+          wrappedKey: "TKN",
         },
       ],
       [
