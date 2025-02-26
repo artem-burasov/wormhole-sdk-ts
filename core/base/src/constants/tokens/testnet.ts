@@ -3292,38 +3292,13 @@ const testnetTokenEntries = [
     "Ultron",
     [
       [
-        "ULX",
-        {
-          symbol: "ULX",
-          decimals: 18,
-          address: "native",
-          wrappedKey: "wULX",
-        },
-      ],
-      [
-        "wULX",
-        {
-          symbol: "wULX",
-          decimals: 18,
-          address: "0xE2619ab40a445526B0AaDff944F994971d2EAc05",
-        },
-      ],
-      [
         "TKN",
         {
           symbol: "TKN",
           decimals: 18,
           address: "0x7315A61E1736d90421b0B7833addD45b821D1B2B",
-          wrappedKey: "WTKN"
+          original: "Solana"
         },
-      ],
-      [
-        "WTKN",
-        {
-          symbol: "WTKN",
-          decimals: 9,
-          address: "0x5A4652E87ceC32D597f0ecB465e6a8acC2F06Cc2"
-        }
       ]
     ],
   ],
