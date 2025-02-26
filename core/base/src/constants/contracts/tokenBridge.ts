@@ -101,6 +101,5 @@ export const tokenBridgeContracts = [[
     ["Sui",       "0xa6a3da85bbe05da5bfd953708d56f1a3a023e7fb58e5a824a3d4de3791e8f690"],
     ["Terra2",    "terra1nc5tatafv6eyq7llkr2gv50ff9e22mnf70qgjlv737ktmt4eswrquka9l6"],
     ["Wormchain", "wormhole1ghd753shjuwexxywmgs4xz7x2q732vcnkm6h2pyv9s6ah3hylvrqtm7t3h"],
-    ["Ultron",    "0x8EA98A4e392ee80Dec08AE51987765F20d77f34F"],
   ]],
 ] as const satisfies MapLevels<[Network, Chain, string]>;
