@@ -107,7 +107,6 @@ const rpcConfig = [[
     ["Ethereum",  "http://eth-devnet:8545"],
     ["Bsc",       "http://eth-devnet2:8545"],
     ["Solana",    "http://solana-devnet:8899"],
-    ["Ultron",    "https://ultron-dev.io"],
   ]],
 ] as const satisfies MapLevels<[Network, Chain, string]>;
 

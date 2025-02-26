@@ -132,7 +132,6 @@ const chainNetworkNativeChainIdEntries = [
       ["Ethereum",  1337n],
       ["Injective","injective_devnet_fake"],
       ["Solana",    "8wF6jKV3cKwyaVkWcoV9KpDqmkjvEYno9hKZrKx8TbZn"],
-      ["Ultron",    1230n],
     ],
   ],
 ] as const satisfies MapLevels<[Network, Chain, bigint | string]>;
