@@ -12,7 +12,7 @@ import type {
   TokenId,
 } from '@ultronswap-wormhole/sdk-connect';
 import {
-  ErrNotWrapped,
+  // ErrNotWrapped,
   UniversalAddress,
   isNative,
   keccak256,
@@ -32,7 +32,7 @@ import {
   EvmAddress,
   EvmPlatform,
   EvmUnsignedTransaction,
-  EvmZeroAddress,
+  // EvmZeroAddress,
   addChainId,
   addFrom,
   unusedArbiterFee,
