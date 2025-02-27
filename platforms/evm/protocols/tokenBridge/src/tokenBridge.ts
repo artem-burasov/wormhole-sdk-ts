@@ -90,8 +90,8 @@ export class EvmTokenBridge<N extends Network, C extends EvmChains>
   }
 
   async getOriginalAsset(token: TokenAddress<C>): Promise<TokenId> {
-    if (!(await this.isWrappedAsset(token)))
-      throw ErrNotWrapped(token.toString());
+    // if (!(await this.isWrappedAsset(token)))
+    //   throw ErrNotWrapped(token.toString());
 
     const tokenContract = EvmPlatform.getTokenImplementation(
       this.provider,
@@ -135,8 +135,8 @@ export class EvmTokenBridge<N extends Network, C extends EvmChains>
       token.address.toUniversalAddress().toString(),
     );
 
-    if (wrappedAddress === EvmZeroAddress)
-      throw ErrNotWrapped(token.address.toUniversalAddress().toString());
+    // if (wrappedAddress === EvmZeroAddress)
+    //   throw ErrNotWrapped(token.address.toUniversalAddress().toString());
 
     return new EvmAddress(wrappedAddress) as NativeAddress<C>;
   }
