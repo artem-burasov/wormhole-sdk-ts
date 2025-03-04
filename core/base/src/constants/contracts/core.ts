@@ -46,7 +46,7 @@ export const coreBridgeContracts = [[
     ["Ultron",    "0x8BDf6c339045F787C0DF4261A8FD480F66c8bE0D"],
   ]], [
   "Testnet", [
-    ["Solana",          "3u8hJUVTA4jH1wYAyUur7FFZVQ8H635K3tSHHF4ssjQ5"],
+    ["Solana",          "HxcjG4KvpVUMkrVUMXr9WsEFoyQokRP5zPXKZmX3WyFJ"],
     ["Ethereum",        "0x706abc4E45D419950511e474C7B9Ed348A4a716c"],
     ["Terra",           "terra1pd65m0q9tl3v8znnz5f5ltsfegyzah7g42cx5v"],
     ["Bsc",             "0x68605AD7b15c732a30b1BbC62BE8F2A509D74b4D"],
