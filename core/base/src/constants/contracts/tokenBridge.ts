@@ -42,7 +42,7 @@ export const tokenBridgeContracts = [[
     ["Ultron",    "0xb621ED8c9B357bfAaE9f24af4f731555dD0F341c"],
   ]], [
   "Testnet", [
-    ["Solana",          "DZnkkTmCiFWfYTfT41X3Rd1kDgozqzxWaHqsw6W4x2oe"],
+    ["Solana",          "8TPYL9NcqdRmwamGNtqS1PdNQdubv1HSZdPL9hwnZ8jW"],
     ["Ethereum",        "0xF890982f9310df57d00f659cf4fd87e65adEd8d7"],
     ["Terra",           "terra1pseddrv0yfsn76u4zxrjmtf45kdlmalswdv39a"],
     ["Bsc",             "0x9dcF9D205C9De35334D646BeE44b2D2859712A09"],
